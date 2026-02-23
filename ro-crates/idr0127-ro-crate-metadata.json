@@ -141,7 +141,7 @@
           "@id": "#experiment-protocol-3-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000240"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000240"
         }
       ],
       "thumbnailUrl": [
@@ -185,7 +185,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000240",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000240",
       "@type": "DefinedTerm",
       "name": "macroscopy"
     },
@@ -195,7 +195,7 @@
       "name": "macroscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000240"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000240"
         }
       ],
       "description": "Bacteria were directly isolated from patient material and then spread-plated on Columbia Sheep Blood agar plates. Samples were time-lapse imaged."
@@ -241,7 +241,7 @@
       "name": "macroscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000240"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000240"
         }
       ],
       "description": "Bacteria were directly isolated from patient material and then spread-plated on Columbia Sheep Blood agar plates. Samples were endpoint (single isolated timepoint, usually 24h and 48h) imaged."
@@ -287,7 +287,7 @@
       "name": "macroscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000240"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000240"
         }
       ],
       "description": "After Experiment A or B, bacteria were stored at -80°C. Bacteria were restreaked on columbia sheep blood agar and single colonies inoculated in tryptic soy broth for overnight growth. These cultures were dilute 1:10 and incubated for 2h. From these exponential cultures, time-lapse imaging was started."

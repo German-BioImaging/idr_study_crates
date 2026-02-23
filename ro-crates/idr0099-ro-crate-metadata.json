@@ -108,7 +108,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000369"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000369"
         }
       ],
       "thumbnailUrl": [
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000369",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000369",
       "@type": "DefinedTerm",
       "name": "light sheet fluorescence microscopy"
     },
@@ -176,7 +176,7 @@
       "name": "light sheet fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000369"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000369"
         }
       ],
       "description": "This dataset contains multiview fused images of Tribolium castaneum embryos labelled with a uniform nuclear localized eGFP signal, a uniform Histone-eGFP signal, a uniform LifeAct-eGFP signal, a uniform Tc-Squash-eGFP signal and a Gap43-eYFP signal. Selective Plane Illumination Microscopy (SPIM), was carried out on a Zeiss Lightsheet Z.1 microscope equipped with a 20x/1.0 NA Plan Apochromat water-immersion detection objective and two 10x/0.2 NA dry illumination objectives. Individual views were registered using bead-based registration and then fused to form combined 3D Tiff stacks using the Multiview reconstruction plugin in Fiji."

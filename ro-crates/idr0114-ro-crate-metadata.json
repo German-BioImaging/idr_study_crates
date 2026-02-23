@@ -117,7 +117,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "thumbnailUrl": [
@@ -197,7 +197,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000243",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000243",
       "@type": "DefinedTerm",
       "name": "bright-field microscopy"
     },
@@ -207,7 +207,7 @@
       "name": "bright-field microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "description": "Immunohistochemistry, immunofluorescence and RNAscope analysis in early human development from 3 to 19 weeks post conception."

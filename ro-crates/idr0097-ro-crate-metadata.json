@@ -144,7 +144,7 @@
           "@id": "#experiment-protocol-2-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "thumbnailUrl": [
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000253",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
       "@type": "DefinedTerm",
       "name": "spinning disk confocal microscopy"
     },
@@ -215,7 +215,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "We use CRISPR-Cas9 based intron tagging to generate cell pools expressing more than 900 GFP-fusion proteins (one GFP-tagged protein per cell). From that pool we isolated and imaged 720 clonal cell lines (one clonal cell line per well, 5 fields of view per well). Additionally, we sequenced the expressed intron-targeting sgRNA in each clone to identify the tagged protein in each clone. For 335 clonal cell lines our sgRNA amplicon sequencing strategy unambiguously identified the integrated sgRNAs indicating a single tagged protein, while in the remaining wells we could not unambiguisly identify the taged protein ('0' values in the respective columns in the library file). We then manually annotated the subcellular the subcellular protein localization of GFP-tagged protein to later compare them to antibody-based annotations available on The Human Protein Atlas."
@@ -281,7 +281,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "We use CRISPR-Cas9 based intron tagging to generate cell pools expressing more than 900 GFP-fusion proteins (one GFP-tagged protein per cell). For this experiment, we seeded the cell pool in a single well of 384-well plate and imaged the entire well twice (0h and 3h timepoint, 289 fields of view per timepoint, raw tiff files were merged to 9 tiles per well). Cells in the same well were then fixed and we performed in situ sequencing to identify the expressed sgRNA in each cell indicating which protein is GFP tagged (7 cycles of in situ sequencing by synthesis, 289 fields of view per cycle,  raw tiff files were merged to 9 tiles per well)."
@@ -337,7 +337,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "We use CRISPR-Cas9 based intron tagging to generate cell pools expressing more than 900 GFP-fusion proteins (one GFP-tagged protein per cell). For this experiment, we seeded the cell pool in a single well of 384-well plate and treated the cells with dBET6, a BRD4-targeting PROTAC. We imaged the entire well at three timepoints (before treatment, after 1h and 3h after treatment, 289 fields of view per timepoint). Cells in the same well were then fixed and we performed in situ sequencing to identify the expressed sgRNA in each cell indicating which protein is GFP tagged (8 cycles of in situ sequencing by synthesis, 289 fields of view per cycle)."

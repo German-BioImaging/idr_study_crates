@@ -108,7 +108,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000369"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000369"
         }
       ],
       "thumbnailUrl": [
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000369",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000369",
       "@type": "DefinedTerm",
       "name": "light sheet fluorescence microscopy"
     },
@@ -170,7 +170,7 @@
       "name": "light sheet fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000369"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000369"
         }
       ],
       "description": "Characterization of mitotic spindle formation in live mouse zygotes by light-sheet microscopy."

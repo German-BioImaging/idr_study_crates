@@ -147,10 +147,10 @@
           "@id": "#experiment-protocol-4-3"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000257"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000257"
         }
       ],
       "thumbnailUrl": [
@@ -198,7 +198,7 @@
       "description": "Micrographs of G1 interphase chromatin of C127 cells with super resolved immunofluorescence (IF) signals of over 16 epigenetic markers (Nascent RNA, Elongating RNAPolII, CTCF, Cohesin subunits, SAF-A and histone modifications such as H3K4me3, H3K27me3, H3K9me3, etc), all from commercially available antibodies."
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000332",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000332",
       "@type": "DefinedTerm",
       "name": "structured illumination microscopy (SIM)"
     },
@@ -208,7 +208,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Micrographs of G1 interphase chromatin of C127 cells with super resolved immunofluorescence (IF) signals of over 16 epigenetic markers (Nascent RNA, Elongating RNAPolII, CTCF, Cohesin subunits, SAF-A and histone modifications such as H3K4me3, H3K27me3, H3K9me3, etc), all from commercially available antibodies."
@@ -263,7 +263,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Micrographs of a subset of the markers in experiment A with chromatin of different phenotype due to different stages of cell cycle: early, mid and late S phase as identified by EdU incorporation in nascent replicating regions."
@@ -308,7 +308,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Micrographs of G1 interphase chromatin of HCT116 cells with and without auxin inducible degradation (AID) of a cohesin subunit with IF on a subset of the previous markers to compare the way the epigenetic regulatory landscape changes when cells are not able to use the cohesin complex to sculpt the 3D chromatin landscape."
@@ -348,7 +348,7 @@
       "description": "Electron Micrographs of the nucleus"
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000257",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000257",
       "@type": "DefinedTerm",
       "name": "scanning electron microscopy (SEM)"
     },
@@ -358,7 +358,7 @@
       "name": "scanning electron microscopy (SEM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000257"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000257"
         }
       ],
       "description": "Electron Micrographs of the nucleus"

@@ -93,7 +93,7 @@
           "@id": "#screen-protocol-1-0"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -155,7 +155,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "eHCFM: a 3D-fluorescence imaging and classification tool for high throughput analysis of microbial eukaryotes in environmental samples. The method generates for each given sample a mosaic of multi-dimentional fields of view (3D, 5 channels). We propose here the exploration of raw images of plankton samples from the Tara Oceans expeditions."

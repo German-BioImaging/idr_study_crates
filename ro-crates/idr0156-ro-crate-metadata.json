@@ -219,7 +219,7 @@
           "@id": "#experiment-protocol-7-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "thumbnailUrl": [
@@ -277,7 +277,7 @@
       "description": "Mouse embryonic stem cells (ESCs) were cultured in the conditions described below (see Protocol Description) and they were fixed on coverslips prior to the Fluorescent in situ Hybridization (DNA FISH) procedure. A large set of Oligopaint probes covering Topologically Associating Domains (TADs) of various size and various epigenetic signatures were used for the DNA FISH. Coverslips with hybridized cells were then observed with Structured Illumination Microscopy (3D-SIM). This approach allows for the description of TAD organization in mouse ESCs (Overlap Fractions (OFs) and 3D distances with consecutive Oligopaint probes within TADs or between TADs, see the article) and the identification of TAD sub-structures, dubbed Chromatin NanoDomains (CNDs), by applying watershed-segmentation on the Oligopaint probe fluorescent signal. Assays TSA and TSA-CTL (control) were performed in parallel with and without trichostatin-A (TSA), respectively. TSA is a potent inhibitor of histone deacetylases that induces histone hyperacetylation."
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000332",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000332",
       "@type": "DefinedTerm",
       "name": "structured illumination microscopy (SIM)"
     },
@@ -287,7 +287,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Mouse embryonic stem cells (ESCs) were cultured in the conditions described below (see Protocol Description) and they were fixed on coverslips prior to the Fluorescent in situ Hybridization (DNA FISH) procedure. A large set of Oligopaint probes covering Topologically Associating Domains (TADs) of various size and various epigenetic signatures were used for the DNA FISH. Coverslips with hybridized cells were then observed with Structured Illumination Microscopy (3D-SIM). This approach allows for the description of TAD organization in mouse ESCs (Overlap Fractions (OFs) and 3D distances with consecutive Oligopaint probes within TADs or between TADs, see the article) and the identification of TAD sub-structures, dubbed Chromatin NanoDomains (CNDs), by applying watershed-segmentation on the Oligopaint probe fluorescent signal. Assays TSA and TSA-CTL (control) were performed in parallel with and without trichostatin-A (TSA), respectively. TSA is a potent inhibitor of histone deacetylases that induces histone hyperacetylation."
@@ -358,7 +358,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Mouse neural progenitor cells (NPCs) were obtained in the conditions described below (see Protocol Description) and they were fixed on coverslips prior to the Fluorescent in situ Hybridization (DNA FISH) procedure. A large set of Oligopaint probes covering Topologically Associating Domains (TADs) of various size and various epigenetic signatures were used for the DNA FISH. Coverslips with hybridized cells were then observed with Structured Illumination Microscopy (3D-SIM). This approach allows for the description of TAD organization in mouse NPCs (Overlap Fractions (OFs) and 3D distances with consecutive Oligopaint probes within TADs or between TADs, see the article) and the identification of TAD sub-structures, dubbed Chromatin NanoDomains (CNDs), by applying watershed-segmentation on the Oligopaint probe fluorescent signal. These data were compared to the ESC conditions from Experiment Mouse_ESC_TADs. NPC from cryo-section of mouse brain neocortex of  E14.5 C57BL/6J embryos (ncxNPC) were subjected to the DNA FISH procedure as in Experiment Mouse_ESC_TADs. Two pairs of TAD probes were observed and were monitored by pair to compare their degree of intermingling (Overlap Fractions (OFs) and 3D distances with consecutive Oligopaint probes between adjacent TADs, see the article) with ESCs from Experiment Mouse_ESC_TADs and this experiment. Slides with hybridized cells were observed with 3D-SIM."
@@ -414,7 +414,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Same experience as in Mouse_ESC_TADs, but with mouse CTCF-AID ES cells allowing for the rapid degradation of the CTCF factor. Assays CTCF-AID_AUX and CTCF-AID_AUX-CTL (control) were performed in parallel with and without Auxin, respectively. Auxin treatment induces the rapid degradation of CTCF."
@@ -470,7 +470,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Same experience as in  Mouse_ESC_TADs, but with mouse RAD21-AID ES cells allowing for the rapid degradation of RAD21, a cohesin complex subunit. Assays RAD21-AID_AUX and RAD21-AID_AUX-CTL (control) were performed in parallel with and without Auxin, respectively. Auxin treatment induces the rapid degradation of RAD21."
@@ -526,7 +526,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Using the same cells as in Mouse_ESC_TADs, immobilized cells on a coverslip were fixed and nuclei were counterstained with DAPI for CND segmentation without the FISH procedure. DAPI stained nuclei were then observed with Structured Illumination Microscopy (3D-SIM)."
@@ -582,7 +582,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Using staged 15-16 Drosophila embryos (Drosophila melanogaster), derived cells were immobilized on a coverslip, fixed and  nuclei were counterstained with DAPI for CND segmentation without the FISH procedure. DAPI stained nuclei were then observed with Structured Illumination Microscopy (3D-SIM)."
@@ -638,7 +638,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Using staged 15-16 Drosophila embryos (Drosophila melanogaster), derived cells were immobilized on a coverslip, fixed and submitted to the DNA FISH procedure using an Oligopaint probe targetting a drosophila TAD of 110 kb located on the X Chromosome. Coverslips with hybridized cells were then observed with Structured Illumination Microscopy (3D-SIM). This approach allows for the description of TAD organization in Drosphila cells. In this species, TADs ressemble CNDs in term of genomic size, diameter and volume."

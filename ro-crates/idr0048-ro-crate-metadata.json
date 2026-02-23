@@ -111,7 +111,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000255"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000255"
         }
       ],
       "thumbnailUrl": [
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000255",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000255",
       "@type": "DefinedTerm",
       "name": "multi-photon microscopy"
     },
@@ -188,7 +188,7 @@
       "name": "multi-photon microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000255"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000255"
         }
       ],
       "description": "Multicolor brain-wide anatomical mapping and high-resolution continuous multicolor imaging of a >5mm3 cortical portion.  Astrocytes and layer 2/3 neurons are 'Brainbow-labeled'.  The dataset consists of a sequence of 92 high-resolution multicolor 2D whole-brain sections with high-content anatomical details and gives access to single-cell astrocyte morphologies with subcellular resolution over an unprecedented millimetric spatial scale."

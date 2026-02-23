@@ -529,7 +529,10 @@ class ROCrateEncoder:
         # Try to resolve common ontology prefixes
         match = re.match(r"^([A-Za-z]+)[_:](\d+)$", accession)
         if match:
+            # If FBbi, handle differently to preserve casing
             prefix = match.group(1).upper()
+            if prefix == "FBBI":
+                prefix = "FBbi"
             number = match.group(2)
             return f"http://purl.obolibrary.org/obo/{prefix}_{number}"
         return f"#{accession}"

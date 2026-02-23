@@ -91,7 +91,7 @@
           "@id": "#experiment-protocol-1-1"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000258"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000258"
         }
       ],
       "thumbnailUrl": [
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000258",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000258",
       "@type": "DefinedTerm",
       "name": "transmission electron microscopy (TEM)"
     },
@@ -140,7 +140,7 @@
       "name": "transmission electron microscopy (TEM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000258"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000258"
         }
       ],
       "description": "Development of human fetal kidneys of first trimester were assessed using large transmission electron microscopy tilescans."

@@ -105,7 +105,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -159,7 +159,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Immunofluorescent staining performed on FFPE sections from a cohort of triple-negative breast cancer patients and a cohort of breast cancer patients."

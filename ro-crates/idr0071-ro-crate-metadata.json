@@ -195,7 +195,7 @@
           "@id": "#experiment-protocol-6-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -239,7 +239,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -249,7 +249,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Optical pooled CRISPR knockout screen in HeLa cells for regulators of p65 translocation upon stimulation by IL-1b or TNF-a, detected by imaging a p65-mNeonGreen fluorescent reporter. CRISPR sgRNAs are detected by sequencing proxy barcodes in cells transduced with the lentiGuide-BC vector. Included cycles of sequencing-by-synthesis (SBS): 1, 2, 3, 4, 5, 6, 7, 8, 9."
@@ -315,7 +315,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Optical pooled CRISPR knockout screen in HeLa cells for regulators of p65 translocation upon stimulation by IL-1b or TNF-a, detected by indirect immunofluorescence of endogenous p65. CRISPR sgRNAs are detected by sequencing from the 5' end of the sgRNA sequence in cells transduced with the CROPseq-Puro vector. Included cycles of sequencing by synthesis (SBS): 1, 2, 3, 5, 6, 7, 8, 9, 10"
@@ -371,7 +371,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Optical pooled CRISPR knockout screen in A549 cells for regulators of p65 translocation upon stimulation by IL-1b or TNF-a, detected by indirect immunofluorescence of endogenous p65. CRISPR sgRNAs are detected by sequencing from the 5' end of the sgRNA sequence in cells transduced with the CROPseq-Puro vector. Included cycles of sequencing-by-synthesis (SBS): 1, 2, 3, 4, 5, 7, 8, 9, 10."
@@ -427,7 +427,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Optical pooled CRISPR knockout screen in HCT-116 cells for regulators of p65 translocation upon stimulation by IL-1b or TNF-a, detected by indirect immunofluorescence of endogenous p65. CRISPR sgRNAs are detected by sequencing from the 5' end of the sgRNA sequence in cells transduced with the CROPseq-Puro vector. Included cycles of sequencing-by-synthesis (SBS): 1, 2, 3, 4, 5, 6, 7, 8, 9."
@@ -483,7 +483,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Twelve cycles of in situ sequencing in HeLa cells expressing barcodes from the lentiGuide-BC lentiviral vector. Included cycles of sequencing-by-synthesis (SBS): 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12."
@@ -539,7 +539,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Combinatorial detection of multiple CRISPR sgRNAs per cell in HeLa cells serially transduced with the CROPseq-Puro and CROPseq-Zeo vectors. Included cycles of sequencing-by-synthesis (SBS): 1, 2, 3, 4, 5, 6."

@@ -141,7 +141,7 @@
           "@id": "#screen-protocol-3-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -203,7 +203,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "To cluster genes and predict function on a genome-wide scale, we measured the effects of 22 839 siRNA-mediated knockdowns on HeLa cells. Each siRNA effect was summarized by a phenotypic profile."
@@ -289,7 +289,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "To test for biological reproducibility with independent siRNAs, we selected 604 out of the 1820 siRNA perturbations which produced non-zero phenoprints for retesting with independent siRNA pools (Qiagen). In this screen HeLa cells were used."
@@ -355,7 +355,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "To test for biological reproducibility with independent siRNAs, we selected 604 out of the 1820 siRNA perturbations which produced non-zero phenoprints for retesting with independent siRNA pools (Qiagen). In this screen U2OS cells were used."

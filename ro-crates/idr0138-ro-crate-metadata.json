@@ -105,7 +105,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "thumbnailUrl": [
@@ -149,7 +149,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000253",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
       "@type": "DefinedTerm",
       "name": "spinning disk confocal microscopy"
     },
@@ -159,7 +159,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "seqFISH study of sagittal sections of mouse embryos at 8-10 somite stage. An additional round of hybridisation to capture cell membrane is performed to accurately segment cell boundaries."

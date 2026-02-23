@@ -105,7 +105,7 @@
           "@id": "#screen-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "thumbnailUrl": [
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000253",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
       "@type": "DefinedTerm",
       "name": "spinning disk confocal microscopy"
     },
@@ -167,7 +167,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "Pooled siRNA targeting human kinome and Rho family GTPases/GEFs/GAPs in MCF10A breast myoepithelial cells stained for YAP/TAZ, F-actin, CD44"

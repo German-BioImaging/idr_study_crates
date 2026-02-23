@@ -108,7 +108,7 @@
           "@id": "#screen-protocol-1-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -170,7 +170,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Screen to characterize yeast stress responses at the protein level, focusing on two key properties: protein localization and abundance, at a single-cell resolution. It measures the levels of 5,330 yeast proteins and manually assign their localization using strains from a GFP fusion library."

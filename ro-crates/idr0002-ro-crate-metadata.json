@@ -105,7 +105,7 @@
           "@id": "#screen-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -167,7 +167,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Screen of 100 candidate genes predicted to be involved in mitotic chromosome condensation. Knock down of 22 genes resulted in signficantly shorter prophases and knock down of 18 genes caused signficant delays in prophase."

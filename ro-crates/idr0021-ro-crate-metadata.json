@@ -105,7 +105,7 @@
           "@id": "#experiment-protocol-1-3"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "thumbnailUrl": [
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000332",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000332",
       "@type": "DefinedTerm",
       "name": "structured illumination microscopy (SIM)"
     },
@@ -176,7 +176,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Images relating to Figure 1e in Lawo et al 2012. These are the 3D-SIM reconstructed, maximum intensity projected and aligned images of centriole or PCM proteins of cycling HeLa cells in interphase."

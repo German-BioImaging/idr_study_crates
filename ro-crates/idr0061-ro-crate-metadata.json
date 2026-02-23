@@ -108,7 +108,7 @@
           "@id": "#screen-protocol-1-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -162,7 +162,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Live imaging screen for regulators of mitotic spindle positioning, screening a library of 1200 kinases, phosphatases and associated proteins (4 siRNAs per gene), in a 96 well format. Cells were incubated 48 hours in the presence of siRNA and than transferred to micropatterned 96 well plates containing L-shaped, fibronectin coated, micropatterns, helping to stereotype cell organelle positioning. On L-shapes, mitotic DNA (metaphase plates) are positioned in a 45° angle with respect to the arms of the Ls, thereby creating a \"\"reference\"\" phenotype. We screened for candidates whose depletion led to a significant offset from this \"\"reference\"\" or normal position during metaphase. We used HeLa cells carrying the mCherry::H2B transgene, visualizing DNA. The L-micropatterns were coated with fibronectin containing Alexa 555, thereby Ls were visible in the same fluorescent channel. After transfer of cells to micropatterned plates, cells attached within 6 hours to the micropattern. We imaged each plate for 24 hours (framerate 8min), imaging 2 visual fields per well. Each plate contained negative and positive control wells (8 scrambles siRNA wells, 8 LGN siRNA wells). Movies were analyzed using the ImageJ based algorithm TRACMIT."

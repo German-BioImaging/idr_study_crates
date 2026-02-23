@@ -2501,7 +2501,7 @@
       "@type": "Dataset",
       "name": "IDR study RO-Crates",
       "description": "Index of RO-Crates generated from IDR study metadata.",
-      "datePublished": "2026-02-20",
+      "datePublished": "2026-02-23",
       "hasPart": [
         {
           "@id": "#subcrate-1"

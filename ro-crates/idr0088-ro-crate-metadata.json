@@ -108,7 +108,7 @@
           "@id": "#screen-protocol-1-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "thumbnailUrl": [
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000253",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
       "@type": "DefinedTerm",
       "name": "spinning disk confocal microscopy"
     },
@@ -167,7 +167,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "We screened a library of 1,008 approved drugs and well-characterized tool compounds manually annotated to 218 unique mechanisms-of-action (MoA) and 169 natural products at four concentrations with four replicates each in live-cell, high-content imaging screens against a panel of 15 reporter cell lines, which expressed a diverse set of fluorescent organelle and pathway markers in three distinct cell lineages. Each reporter cell line carried a BFP segmentation cassette that enabled detection of the nuclear and cell boundaries. In addition, each reporter cell line expressed a GFP- and a RFP/FusionRed-tagged organelle or pathway marker from its endogenous chromosomal locus. These markers were selected to cover a broad array of organelles, cellular structures and regulatory pathways for the generation of information-rich image-based compound descriptors."

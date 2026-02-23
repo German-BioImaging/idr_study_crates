@@ -111,7 +111,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "thumbnailUrl": [
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000332",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000332",
       "@type": "DefinedTerm",
       "name": "structured illumination microscopy (SIM)"
     },
@@ -183,7 +183,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "In this project, XX mESCs with inducible endogenous Xist RNA, as well as XY mESCs with inducible autosomal transgenic Xist RNA, were used to study the localisation, dynamics and spreading behaviour of Xist RNA during the early phases of XCI. The Bgl-stem-loop labelling system was used in this project to label endogenous Xist RNA. A transgene encoding the BglG-Halo fusion protein was engineered to be doxycycline inducible. Later, different mutant cell lines were created using CRISPR/Cas9 genome editing. Considering the technical difficulties associated with live imaging of Xist foci, a different approach to studying Xist RNA dynamics was developed: RNA-SPLIT (Sequential Pulse Localisation Imaging over Time). In order to add temporal information one can make use of the fact that HaloTag technology enables addition of cell permeable ligands with different properties to cells, with excess ligand being washed out prior to fixation. Specifically, instead of a single HaloTag ligand, two different wavelength emitting HaloTag ligands were added sequentially after induction with doxycycline. Cells were induced for 1.5 h and 24 h before the start of the experiment to assess Xist localisation and dynamics in expansion and steady state respectively. Subsequent addition of the HaloTag ligands allowed for splitting the RNA into two differently labelled pools, pre-synthesised RNA labelled with Halo ligand 1 and newly synthesised RNA labelled with Halo ligand 2. This novel technique is especially powerful because variations of the set up can be used to study different aspects of RNA dynamics and localisation, and it can potentially be applied to any RNA and any stem-loop labelling system. Firstly, localisation of Xist to the X chromosome territory at the different stages of XCI and in different cellular backgrounds can be assessed by measuring the molecule density and volume of spread. Moreover, one can determine RNA turnover by scoring the number of pre-synthesised RNA molecules over time, while gradually increasing the staining time of newly synthesised RNA molecules for up to 4 h. Full turnover of the RNA can be assumed when no pre-synthesised RNA signal can be detected anymore. Turnover rates can be complemented by analysis of RNA transcription dynamics, quantified by scoring the number of newly synthesised RNA molecules while gradually increasing the staining time of newly synthesised RNA in 10 min intervals. Finally, RNA-SPLIT can be used to assess the localisation of newly synthesised RNA with respect to pre-synthesised RNA by measuring the distance of each newly synthesised molecule to the nearest pre-synthesised molecule. Image processing and analysis is critical for successful RNA-SPLIT experiments. After image acquisition with 3D-SIM, the data is reconstructed and undergoes quality checks through the SIMcheck plugin. Artefacts are reduced by generating modulation contrast maps and applying suitable and consistent filters to discard low modulation contrast signal. Then, background stemming from free diffusing BglG-Halo is discarded by manual thresholding. Channels are aligned using the open-source software package Chromagnon and EdU calibration data acquired on the date of image acquisition. In the final step of image processing, Xist territories are manually cropped. The volume of the cropped Xist territory gives first insights into the spreading volume of the RNA. To analyse the fully processed images, the signal is masked and the centroids of each molecule are determined by a Watershed algorithm. This allows for the counting of pre-synthesised and newly synthesised molecules at different time points and under various experimental conditions. RNA turnover and transcription dynamics can be deduced from this information. The localisation of each molecule in 3D determined by the Watershed algorithm can then be used to conduct NNA, where the distance of each newly synthesised molecule to its nearest neighbouring pre-synthesised molecule is measured. Variations of NNA, where distances between all RNA molecules or between the approximate transcription site and newly synthesised RNA are determined, can be used to examine RNA density and spreading behaviour. The development of this new tool for studying RNA localisation and dynamics allows for the addition of temporal resolution to super-resolved localisation microscopy data without the need for live cell imaging."

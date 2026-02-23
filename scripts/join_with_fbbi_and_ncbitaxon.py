@@ -27,7 +27,7 @@ XML_NS = "http://www.w3.org/XML/1998/namespace"
 
 NS = {"rdf": RDF_NS, "rdfs": RDFS_NS, "owl": OWL_NS}
 
-FBBI_USE_RE = re.compile(r"\bobo:FBBI_(\d+)\b")
+FBBI_USE_RE = re.compile(r"\bobo:(?:FBbi|FBBI)_(\d+)\b")
 NCBI_USE_RE = re.compile(r"\bobo:NCBITaxon_(\d+)\b")
 NCBI_DEF_RE = re.compile(
     r"obo:NCBITaxon_(\d+)\s+a\s+dwc:Taxon\s*;\s*dwc:scientificName\s+\"([^\"]+)\"\s*\.",
@@ -40,8 +40,9 @@ def ttl_escape(value: str) -> str:
 
 
 def output_fbbi_id(local_id: str) -> str:
-    if re.fullmatch(r"FBbi_\d+", local_id):
-        return "FBBI_" + local_id.split("_", 1)[1]
+    match = re.fullmatch(r"(?i)fbbi_(.+)", local_id)
+    if match:
+        return f"FBbi_{match.group(1)}"
     return local_id
 
 
@@ -224,7 +225,7 @@ def write_joint_export_ttl() -> None:
     # Keep each source block intact for traceability while producing one merged export.
     merged = (
         f"{idr_text}\n\n"
-        "# ---- Extracted FBBI hierarchy subset ----\n"
+        "# ---- Extracted FBbi hierarchy subset ----\n"
         f"{fbbi_text}\n\n"
         "# ---- Extracted NCBITaxon hierarchy subset ----\n"
         f"{ncbi_text}\n"
@@ -247,7 +248,7 @@ def main() -> None:
     print(f"Wrote {OUT_FBBI_TTL}")
     print(f"Wrote {OUT_NCBI_TTL}")
     print(f"Wrote {OUT_JOINT_TTL}")
-    print(f"FBBI terms: {len(fbbi_selected)}")
+    print(f"FBbi terms: {len(fbbi_selected)}")
     print(f"NCBITaxon terms: {len(ncbi_selected)}")
 
 

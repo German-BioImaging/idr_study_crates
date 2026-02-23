@@ -96,7 +96,7 @@
           "@id": "#experiment-protocol-1-1"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "thumbnailUrl": [
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000243",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000243",
       "@type": "DefinedTerm",
       "name": "bright-field microscopy"
     },
@@ -150,7 +150,7 @@
       "name": "bright-field microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "description": "Based on cell coordinates detected in the full image, a Delaunay triangulation and distance criteria were used to build neighborhood graphs. The composition of nodes and edges are used for classification, e.g. using a support vector machine."

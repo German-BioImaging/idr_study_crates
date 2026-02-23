@@ -105,7 +105,7 @@
           "@id": "#experiment-protocol-2-1"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "thumbnailUrl": [
@@ -153,7 +153,7 @@
       "description": "MarrowQuant, a digital and quantitative pathology tool was used to quantify the different compartments within the bone marrow at different conditions, mainly aplasia and aging conditions. By using our tool, we can compare the skeletal map induced by lethal irradiation(aplasia), with longitudinal quantification of the “red-to-yellow-to-red” transition over 2 months (aging) in C57BL/6 mouse femurs and tibiae."
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000243",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000243",
       "@type": "DefinedTerm",
       "name": "bright-field microscopy"
     },
@@ -163,7 +163,7 @@
       "name": "bright-field microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "description": "MarrowQuant, a digital and quantitative pathology tool was used to quantify the different compartments within the bone marrow at different conditions, mainly aplasia and aging conditions. By using our tool, we can compare the skeletal map induced by lethal irradiation(aplasia), with longitudinal quantification of the “red-to-yellow-to-red” transition over 2 months (aging) in C57BL/6 mouse femurs and tibiae."
@@ -186,7 +186,7 @@
       "name": "bright-field microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "description": "Away from the Mouse H&E quantification, the current version of MarrowQuant was tested on a small set of H&E bone marrow biopsies from anonymised patients. The tool performs in a comparable way as compared to the gold standard (Pathologists’ scorings), but it needs many optimisations before validating at the level of the human bone marrow biopsies quantifications and in clinical context."

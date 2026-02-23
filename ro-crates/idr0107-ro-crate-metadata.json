@@ -100,7 +100,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "thumbnailUrl": [
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000332",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000332",
       "@type": "DefinedTerm",
       "name": "structured illumination microscopy (SIM)"
     },
@@ -149,7 +149,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "Images used for HEI10 focus patterning and intensity measurements in Morgan et al., 2021. These are multichannel 3D-SIM reconstructed images of Arabidopsis pachytene cells labelled for ZYP1 and HEI10 and stained with DAPI. 3D skeleton traces of each of the 5 bivalent paths for each cell are also included to facilitate downstream image analysis."

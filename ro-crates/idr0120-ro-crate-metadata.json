@@ -171,7 +171,7 @@
           "@id": "#screen-protocol-4-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "thumbnailUrl": [
@@ -220,7 +220,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000253",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
       "@type": "DefinedTerm",
       "name": "spinning disk confocal microscopy"
     },
@@ -230,7 +230,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "Screen in Jurkat cells."
@@ -332,7 +332,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "Compound screen in NK92 cells."
@@ -409,7 +409,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "Screen of primary NK cells."
@@ -486,7 +486,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "Patient-derived cells."

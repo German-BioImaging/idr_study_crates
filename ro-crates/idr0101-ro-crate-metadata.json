@@ -102,7 +102,7 @@
           "@id": "#experiment-protocol-2-0"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -162,7 +162,7 @@
       "description": "In situ genome sequencing of human PGP1 fibroblasts."
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -172,7 +172,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "In situ genome sequencing of human PGP1 fibroblasts."
@@ -189,7 +189,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "In situ genome sequencing of early mouse embryos"

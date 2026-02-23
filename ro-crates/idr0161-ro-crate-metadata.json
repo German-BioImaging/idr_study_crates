@@ -102,7 +102,7 @@
           "@id": "#experiment-protocol-1-3"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -156,7 +156,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "44-plex iterative bleaching extends multiplexity (IBEX) imaging was performed on fixed frozen tissues from normal human thymus samples.  Plus, 13 to 15-plex one-shot multiplex imaging of human thymus using the RareCyte technology and OCT embedded frozen tissues prepared from human thymus."

@@ -123,7 +123,7 @@
           "@id": "#screen-protocol-2-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -176,7 +176,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -186,7 +186,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "A genome-wide RNAi screen for loss of DE- cadherin-mediated, Ca2+-dependent cell-cell adhesion in DECAD-S2 cells . This initial screen yielded 1,201 RNAi's that produced defective cell-cell aggregation in DECAD-S2 cells."
@@ -272,7 +272,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Re-screen of 803 hits from the first screen, using RNAis to regions of the genes that were different from those targeted by RNAi in the first screen.  Some hits from the primary screen where not investigated further due to their likely involvement in generic protein expression pathways, the genes were obsolete or because it was not possible to design nonoverlapping RNAis."

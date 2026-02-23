@@ -103,7 +103,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -166,7 +166,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "Immunolabeling of mouse embryonic stem cell derived neurons (TUJ1) and oligodendrocytes (MBP) and their nuclei (DAPI). Cells were grown in microfluidic chambers. Myelin is annotated on images."

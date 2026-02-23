@@ -153,7 +153,7 @@
           "@id": "#screen-protocol-3-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "thumbnailUrl": [
@@ -203,7 +203,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000253",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
       "@type": "DefinedTerm",
       "name": "spinning disk confocal microscopy"
     },
@@ -213,7 +213,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "Hela cells were transfected with the human Lincode small interfering RNA (siRNA) library targeting 2231 lncRNAs. Following 48 hr incubation, cells were fixed and processed for immunostaining and subsequent automated image acquisition and analysis. Antibodies targeting CEP215 (to label centrosomes), alpha-tubulin (to label the microtubule cytoskeleton), phalloidin (to label the actin cytoskeleton) and Hoechst (to label nuclei) were used.  10x 384-well plates were used.  The fixation and staining was carried out at the Institute for Cancer Research (ICR, London) using the PerkinElmer Cell:Explorer system coupled to automated liquid handling equipment. Solutions were dispensed using a Multidrop Combi Reagent dispenser (Thermo Fisher Scientific) and aspirated/washed using a Biotek washer with 96 pins. All plates were imaged using the PerkinElmer Opera high-content confocal screening platform with spinning disc. Thirty fields of view per well were captured using a 20x air objective, numerical aperture (NA) 0.45."
@@ -315,7 +315,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "Hela cells were transfecetd with the human Lincode small interfering RNA (siRNA) library targeting 2231 lncRNAs. Following 48 hr incubation, cells were fixed and processed for immunostaining and subsequent automated image acquisition and analysis.  In screen B, phospho-histone H3 (PHH3; to specifically label mitotic cells), alpha-tubulin, gamma-tubulin (to label centrosomes) and Hoechst was used. 10x 384-well plates were used.  The fixation and staining for both screen A and B  was carried out at the Institute for Cancer Research (ICR, London) using the PerkinElmer Cell:Explorer system coupled to automated liquid handling equipment. Solutions were dispensed using a Multidrop Combi Reagent dispenser (Thermo Fisher Scientific) and aspirated/washed using a Biotek washer with 96 pins. All plates were imaged using the PerkinElmer Opera high-content confocal screening platform with spinning disc. Thirty fields of view per well were captured using a 20x air objective, numerical aperture (NA) 0.45."
@@ -392,7 +392,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "The third-pass validation screen was performed in two replicates with four technical replicates using the top 25 candidates from each of the categories (mitotic progression, cytokinesis) using phospho-histone H3 (PHH3; to specifically label mitotic cells), alpha-tubulin (to label the microtubule cytoskeleton), gamma-tubulin (to label centrosomes) and Hoechst (DNA). Correlation coefficients between replicate plates in third screen were calculated by Spearman’s rank correlation (mitotic index = 0.967888, viability = 0.93249, multinucleation index = 0.995897, cytokinetic bridges = 0.898324).  The fixation and staining for the validation screen  was carried out at the Institute for Cancer Research (ICR, London) using the PerkinElmer Cell:Explorer system coupled to automated liquid handling equipment. Solutions were dispensed using a Multidrop Combi Reagent dispenser (Thermo Fisher Scientific) and aspirated/washed using a Biotek washer with 96 pins. All plates were imaged using the PerkinElmer Opera high-content confocal screening platform with spinning disc. Thirty fields of view per well were captured using a 20x air objective, numerical aperture (NA) 0.45."

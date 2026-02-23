@@ -363,7 +363,7 @@
           "description": "Equipment used in image capture"
         },
         "measurementTechnique": {
-          "description": "DefinedTerm (preferably from FBBI ontology)",
+          "description": "DefinedTerm (preferably from FBbi ontology)",
           "$ref": "#/$defs/IdReferenceOrArray"
         }
       },

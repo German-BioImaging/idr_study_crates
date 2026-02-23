@@ -105,7 +105,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -164,7 +164,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "Confocal time-lapse images of nuclear import into permeabilised  cells. All experiments are labelled according to the different cargo used: capsid MS2_S37P, I53-47 and MS2, and number of NLSs on the capsid surface. For each experiment, 12 areas containing approximately 10 cells were imaged at the same time. Where independent biological replicates of the same sample are available, these are labelled as R1, R2 etc."

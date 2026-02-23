@@ -111,7 +111,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000258"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000258"
         }
       ],
       "thumbnailUrl": [
@@ -170,7 +170,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000258",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000258",
       "@type": "DefinedTerm",
       "name": "Transmission electron microscopy"
     },
@@ -180,7 +180,7 @@
       "name": "Transmission electron microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000258"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000258"
         }
       ],
       "description": "Ultra-large high resolution electron microscopy maps of the mouse glomerulus, mouse embryonic fibroblasts, human dendritic cells and a zebrafish embryo slice were generated using virtual nanoscopy."

@@ -129,10 +129,10 @@
           "@id": "#screen-protocol-2-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000247"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000247"
         }
       ],
       "thumbnailUrl": [
@@ -184,7 +184,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000253",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
       "@type": "DefinedTerm",
       "name": "spinning disk confocal microscopy"
     },
@@ -194,7 +194,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "Primary Screen"
@@ -278,7 +278,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000247",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000247",
       "@type": "DefinedTerm",
       "name": "phase contrast microscopy"
     },
@@ -288,7 +288,7 @@
       "name": "phase contrast microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000247"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000247"
         }
       ],
       "description": "Dose response screen"

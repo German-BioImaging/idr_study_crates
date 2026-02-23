@@ -105,7 +105,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "thumbnailUrl": [
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000243",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000243",
       "@type": "DefinedTerm",
       "name": "bright-field microscopy"
     },
@@ -164,7 +164,7 @@
       "name": "bright-field microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "description": "We performed single molecule in-situ hybridization on yeast cells that have been exposed to osmotic stress and measured mRNA expression for two genes. The goal of this study was to generate data sets for single cell transcription modeling."

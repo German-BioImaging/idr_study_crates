@@ -180,10 +180,10 @@
           "@id": "#experiment-protocol-6-3"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -241,7 +241,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000393",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000393",
       "@type": "DefinedTerm",
       "name": "array-scan confocal microscopy"
     },
@@ -251,7 +251,7 @@
       "name": "array-scan confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         }
       ],
       "description": "Visualisation of wild type, SMC4 depleted, and NIPBL depleted HeLa Kyoto cells synchronised to prometaphase or G2 phase, where sister chromatids were labelled on either one or two sister chromatids by F-ara-EdU (as specified), with DNA counterstained using Hoechst 33342, as in Fig. 1, Fig. EV2F, Fig. EV3, Fig. EV4 of Batty et al, 2023."
@@ -311,7 +311,7 @@
       "name": "array-scan confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         }
       ],
       "description": "Wild type late prophase HeLa Kyoto cells labelled on one sister chromatid. Control, WAPL depleted, Sororin depleted, WAPL + Sororin depleted, or WAPL +SMC4 depleted G2 HeLa Kyoto cells labelled on one sister chromatid with F-ara-EdU, and synchronised to G2 by RO-3306, as in Fig. 2, 3, EV5 of Batty et al, 2023."
@@ -361,7 +361,7 @@
       "name": "array-scan confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         }
       ],
       "description": "WAPL depleted, WAPL/SMC4 depleted, and WAPL/SMC4/Sororin HeLa Kyoto cells labelled on one sister chromatid with F-ara-EdU, and synchronised to prometaphase by STLC, as in Fig. 4A, B of Batty et al, 2023. Control prometaphase chromosomes acutely depleted of condensins for either 120 or 240 min, as in Fig. 4C-E of Batty et al, 2023."
@@ -411,7 +411,7 @@
       "name": "array-scan confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         }
       ],
       "description": "Measurement of mean intensity in central slice of 3D stack. Validation of cell cycle stage for wild type and WAPL depleted cells as in Fig. EV2, EV5 of Batty et al, 2023. Measurement of mean SMC4 intensity in Fig. 4D of Batty et al, 2023."
@@ -456,7 +456,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -466,7 +466,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "Validation of protein depletion across different cell lines by measurement of mean nuclear intensities of proteins of interest, as in Fig. EV3, EV4, Appendix Fig. S1, S2, S4 of Batty et al, 2023."
@@ -516,7 +516,7 @@
       "name": "array-scan confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         }
       ],
       "description": "Immunofluorescence of nuclear Sororin fluorescence and SCC1 axis formation in WAPL depleted G2 cells, as in Appendix Fig. S2D of Batty et al, 2023."

@@ -120,7 +120,7 @@
           "@id": "#screen-protocol-1-6"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "thumbnailUrl": [
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000243",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000243",
       "@type": "DefinedTerm",
       "name": "bright-field microscopy"
     },
@@ -206,7 +206,7 @@
       "name": "bright-field microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "description": "To study the role of epigenetic regulatory enzymes in the intestinal epithelium, small intestinal organoids were treated with a library of highly specific inhibitors of epigenetic modifiers provided by the Structural Genomics Consortium (SGC). Small intestinal organoids derived from four individual C57BL/6J mice were passaged by rigourous pipetting to nearly single cells at 1:4 ratio and seeded in 40µl Matrigel droplets/well in pre-warmed 24-well plates. 250µl/well basal organoid culture medium containing EGF, Noggin, and R-Spondin-1 (\"ENR\") was added immediately after Matrigel solidification. 250µl/well ENR + probes from the SGC Epigenetics Probes library at 2x working concentration were added within 30min. For each biological replicate DMSO vehicle controls were carried out in quadruplicates and valproic acid (VPA) was included as positive control. Media was replaced after 48h. Organoid bright-field image stacks were acquired 0h, 24h, 48h, 72h, 96h after seeding on an EVOS2 microscope (Thermo Fisher Scientific)."

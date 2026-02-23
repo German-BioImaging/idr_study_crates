@@ -123,7 +123,7 @@
           "@id": "#screen-protocol-2-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -185,7 +185,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "This screen uses a genome-wide library of over 51,000 small interfering RNAs (siRNAs) targeting approximately 22,000 human genes for interference with ER-to-plasma membrane transport of the well-characterized secretory cargo membrane protein tsO45G."
@@ -241,7 +241,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "This validation screen focused on those 1,531 genes that caused the most significant inhibition of secretion on knockdown. Using independent siRNA sequences targeting these genes, we tested for their interference with tsO45G transport."

@@ -169,7 +169,7 @@
           "@id": "#screen-protocol-4-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -224,7 +224,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -234,7 +234,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Human rhinovirus infected quality control plates consisting solely of the solvent control DMSO to confirm assay stability prior to Z' plates (preZ) and screen (preScreen)."
@@ -339,7 +339,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Human rhinovirus infected Z' plates in biological duplicates consisting of 192 technical replicates of the solvent control DMSO and positive control BafA to confirm assay quality."
@@ -419,7 +419,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of rhinovirus infection."
@@ -499,7 +499,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "Primary image-based screen of 1,278 mostly FDA-approved, off-patent small molecules, collected in the Prestwick Chemical Library for inhibitors of rhinovirus infection."

@@ -108,7 +108,7 @@
           "@id": "#screen-protocol-1-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -162,7 +162,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "We screened 218 prototypical cytotoxic and nuisance compounds in U-2 OS cells in concentration-response format using the Cell Painting assay. From a previous Cell Painting experiment, an additional 283 compounds with either high or no correlation to a gross cell injury morphology were re-tested in single-concentration format."

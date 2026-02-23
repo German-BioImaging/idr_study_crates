@@ -111,7 +111,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "thumbnailUrl": [
@@ -177,7 +177,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000243",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000243",
       "@type": "DefinedTerm",
       "name": "bright-field microscopy"
     },
@@ -187,7 +187,7 @@
       "name": "bright-field microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000243"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000243"
         }
       ],
       "description": "After euthanizing the mice, solid tumors were collected and fixed with 10% formalin (Patterson Veterinary) for 24 hours. Samples were subsequently transferred into 70% ethanol and submitted to the Histology Core at the Koch Institute for paraffin embedding, in 3 batches, the paraffin blocks were subjected to tissue sectioning, Hematoxylin & Eosin (H&E) staining and digital whole slide scanning."

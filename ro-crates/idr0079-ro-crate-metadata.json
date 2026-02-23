@@ -120,7 +120,7 @@
           "@id": "#experiment-protocol-2-3"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         }
       ],
       "thumbnailUrl": [
@@ -181,7 +181,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000393",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000393",
       "@type": "DefinedTerm",
       "name": "array-scan confocal microscopy"
     },
@@ -191,7 +191,7 @@
       "name": "array-scan confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         }
       ],
       "description": "3D confocal live imaging of the zebrafish posterior lateral line primordium labeled with the membrane marker cldnB:lyn-EGFP for segmentation and optionally with one of several additional labels."
@@ -241,7 +241,7 @@
       "name": "array-scan confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000393"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000393"
         }
       ],
       "description": "3D confocal imaging of fixed samples of the zebrafish posterior lateral line primordium labeled with the membrane marker cldnB:lyn-EGFP and stained for pea3 mRNA using single molecule Fluorescence In-Situ Hybridization (smFISH)."

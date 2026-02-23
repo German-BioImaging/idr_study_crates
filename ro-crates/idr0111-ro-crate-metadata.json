@@ -126,7 +126,7 @@
           "@id": "#experiment-protocol-2-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000247"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000247"
         }
       ],
       "thumbnailUrl": [
@@ -187,7 +187,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000247",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000247",
       "@type": "DefinedTerm",
       "name": "phase contrast microscopy"
     },
@@ -197,7 +197,7 @@
       "name": "phase contrast microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000247"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000247"
         }
       ],
       "description": "MCF10A, PTEN-/-, KRas, and KRas/PTEN-/- cell lines or the MCF10A and MDA-MB-231 cell lines were plated in a collective migration assay that uses circular cell sheets.  Tiled images of each full cell sheet were taken before and after a set of time lapse images was taken of two ROIs in each cell sheet."
@@ -263,7 +263,7 @@
       "name": "phase contrast microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000247"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000247"
         }
       ],
       "description": "MCF10A, PTEN-/-, KRas, and KRas/PTEN-/- cell lines were plated in a collective migration assay that uses circular cell sheets.  Duplicates plates were used to create fixed samples at t=0 (plate 1) and t=15 h (plate 2).  The fixed samples were stained with DAPI."

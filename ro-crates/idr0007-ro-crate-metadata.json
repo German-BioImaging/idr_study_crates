@@ -105,7 +105,7 @@
           "@id": "#screen-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -167,7 +167,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "In this screen two mutant yeast strains unable to synthesize SUMO chains (pro-smt3allR and smt3allR), were crossed with 384 yeast strains expressing GFP-tagged proteins (Huh et al., 2003) previously linked to the DNA damage response (Tkach et al., 2012).  144 GFP-tagged proteins displayed a change in localization and/or intensity when expressed in the smt3allR mutant grown in rich medium."

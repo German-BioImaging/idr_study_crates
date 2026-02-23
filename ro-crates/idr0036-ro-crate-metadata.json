@@ -108,7 +108,7 @@
           "@id": "#screen-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -161,7 +161,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -171,7 +171,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "The images are of U2OS cells treated with each of 1600 known bioactive compounds and labeled with six labels that characterize seven organelles (the \"Cell Painting\" assay). This pilot experiment consists of 20 plates. Each plate has 384 wells and each well has 9 fields of view for a total of 69,120 fields of view. Each field was imaged in five channels (detection wavelengths), and each channel is stored as a separate, grayscale image file, so there are 345,600 image files in 16-bit TIFF format. The plates in this screen were originally included as part of idr0016/screenA but were moved to idr0036/screenA in August 2017 to make it clearer that they correspond to the Broad BioImaging Benchmark Collection dataset BBBC022 (https://www.broadinstitute.org/bbbc/BBBC022/)."

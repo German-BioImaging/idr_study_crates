@@ -96,7 +96,7 @@
           "@id": "#experiment-protocol-1-1"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -140,7 +140,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -150,7 +150,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "40-plex iterative bleaching extends multiplexity (IBEX) imaging was performed on fixed frozen tissues from normal human lymph nodes and follicular lymphoma lymph nodes. Multiplexed immunofluorescence (MxIF) imaging was performed on serial FFPE tissue sections from follicular lymphoma lymph nodes. Four distinct antibody panels were applied to each tissue section referred to as MxIF Panel 1 (MxIF_P1), MxIF Panel 2 (MxIF_P2),  MxIF Panel 3 (MxIF_P3), and MxIF Panel 4 (MxIF_P4). Multiplexed imaging was performed on serial FFPE tissue sections from normal and follicular lymphoma lymph nodes using the Cell DIVE imager and IBEX dye inactivation protocol (Cell DIVE-IBEX). Two panels of antibodies, immune (CellDIVE_IBEX_Immune) or stromal (CellDIVE_IBEX_Stromal), were applied to serial sections. IBEX and MxIF imaging were performed on a discovery cohort of 10 samples. Key spatial findings were extended to a larger validation cohort of 29 samples using the Cell DIVE-IBEX method."

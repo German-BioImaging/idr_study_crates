@@ -120,7 +120,7 @@
           "@id": "#screen-protocol-2-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "thumbnailUrl": [
@@ -163,7 +163,7 @@
       "description": "A genome-wide, high-content RNAi screen in the hemocyte-derived adherent Drosophila cell line S2R+  whose read-out was a visual inspection of images of fixed cells stained with alpha-tubulin, F-actin, and DNA. After filtering and annotating hits with a controlled vocabulary, we identified a number of broad phenotypic categories."
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000246",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
       "@type": "DefinedTerm",
       "name": "fluorescence microscopy"
     },
@@ -173,7 +173,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "A genome-wide, high-content RNAi screen in the hemocyte-derived adherent Drosophila cell line S2R+  whose read-out was a visual inspection of images of fixed cells stained with alpha-tubulin, F-actin, and DNA. After filtering and annotating hits with a controlled vocabulary, we identified a number of broad phenotypic categories."
@@ -224,7 +224,7 @@
       "name": "fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000246"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
         }
       ],
       "description": "This screen consists of siRNAs targetting 516 known or predicted actin and Rho-GTPase family regulators (the 'actinome';) in human HeLa cells and in addition tests representative close human orthologues of the set of putative novel actin regulators identified in the fly screen.  This screen was performed in duplicate (screens B and C). Screen B is also known as Actinome 1 and screen C as Actinome 2. Only screen B is available at present."

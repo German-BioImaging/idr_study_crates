@@ -108,7 +108,7 @@
           "@id": "#screen-protocol-1-5"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000247"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000247"
         }
       ],
       "thumbnailUrl": [
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000247",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000247",
       "@type": "DefinedTerm",
       "name": "phase contrast microscopy"
     },
@@ -162,7 +162,7 @@
       "name": "phase contrast microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000247"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000247"
         }
       ],
       "description": "Time series phase and fluorescent microscopy of AU565, HCC1143, 21MT1 and MDAMB157 breast cancer cells response to single drugs and AU565 breast cancer cells response to drug combinations. Fluorescent reporters show nuclei and cell cycle state."

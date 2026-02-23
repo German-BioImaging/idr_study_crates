@@ -111,7 +111,7 @@
           "@id": "#experiment-protocol-1-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000254"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000254"
         }
       ],
       "thumbnailUrl": [
@@ -175,7 +175,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000254",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000254",
       "@type": "DefinedTerm",
       "name": "two-photon laser scanning microscopy"
     },
@@ -185,7 +185,7 @@
       "name": "two-photon laser scanning microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000254"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000254"
         }
       ],
       "description": "To study the spatial distribution of synaptic complexes called microglomeruli in the mushroom body neuropils of the honeybee brain, those structures where imaged by two-photon microscopy. A data analysis method was developed to automatically obtain the loci of those structures from large volume samples allowing to analyse their 3D density distribution."

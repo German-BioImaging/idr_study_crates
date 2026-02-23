@@ -141,7 +141,7 @@
           "@id": "#experiment-protocol-3-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "thumbnailUrl": [
@@ -190,7 +190,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000251",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
       "@type": "DefinedTerm",
       "name": "confocal microscopy"
     },
@@ -200,7 +200,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "Genome-edited cells with homozygously mEGFP-tagged Condensin subunits and chromosomes stained by SiR-DNA were imaged every 90 s for a total of 60 min by 3D confocal microscopy, which was automatically triggered after prophase onset. Images were calibrated by FCS to convert fluorescence intensities into cellular protein concentration maps and cellular protein number maps."
@@ -266,7 +266,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "FRAP experiments of Condensin-mEGFP subunits on the metaphase plate."
@@ -322,7 +322,7 @@
       "name": "confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000251"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
         }
       ],
       "description": "Single Colour - Condensin subunits were immunostained (with an anti-GFP antibody), and mitotic cells with chromatids oriented in parallel to the focal plane were selected for imaging. DNA (Hoechst) and Condensins (mEGFP tag and anti-GFP immunostaining) were imaged by diffraction-limited microscopy, whereas immunostained Condensin was also imaged by STED microscopy.  Double Colour -  NCAPH2-mEGFP and NCAPH-Halo were immunostained respectively with anti-GFP (1:500; ab13970; Abcam) + goat secondary anti-chicken Alexa Fluor 594 (1;500; A-11042; Thermo Fisher Scientific) and anti-Halo (1:500; G9281; Promega) + anti-rabbit Abberior STAR RED then imaged by STED microscopy."

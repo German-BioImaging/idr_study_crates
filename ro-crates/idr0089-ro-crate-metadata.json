@@ -126,7 +126,7 @@
           "@id": "#experiment-protocol-2-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         },
         {
           "@id": "#term"
@@ -186,7 +186,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000332",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000332",
       "@type": "DefinedTerm",
       "name": "structured illumination microscopy (SIM)"
     },
@@ -196,7 +196,7 @@
       "name": "structured illumination microscopy (SIM)",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000332"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000332"
         }
       ],
       "description": "3D-SIM of human cardiomyocyte cells (AC16s) exposed to different cold temperatures stained with markers for nuclear features (chromatin modifications: H3K4me3, H3K27me3, H3K9me3; Ser2-phosphorylated C-terminal domain of RNA polymerase II; hnRNPC; Nuclear pore complex) and DAPI. Cells were grown in 6 different temperature conditions prior to fixation: 37 degrees centigrade; 28 degrees centigrade for 24 h; 18 degrees centigrade for 5 h; 18 degrees centigrade for 24 h; 18 degrees centigrade for 24 h then returned to 37 degrees centigrade for 2 h; 8 degrees centigrade for 24 h."

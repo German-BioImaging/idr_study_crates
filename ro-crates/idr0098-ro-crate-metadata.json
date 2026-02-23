@@ -121,10 +121,10 @@
           "@id": "#experiment-protocol-2-4"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000371"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000371"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000345"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000345"
         }
       ],
       "thumbnailUrl": [
@@ -180,7 +180,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000371",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000371",
       "@type": "DefinedTerm",
       "name": "OCT"
     },
@@ -190,7 +190,7 @@
       "name": "OCT",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000371"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000371"
         }
       ],
       "description": "Abdominal skin from FVB/N mice was untreated to serve as control samples for the normal class. Back skin from FVB/N mice was treated with immunosupresant and tumor promoter solutions to study different stages of cutaneous squamous cell carcinoma. All samples were excised and imaged by full-field optical coherence tomography."
@@ -251,7 +251,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000345",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000345",
       "@type": "DefinedTerm",
       "name": "light microscopy"
     },
@@ -261,7 +261,7 @@
       "name": "light microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000345"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000345"
         }
       ],
       "description": "Microscopy images of 9 H&E stain samples from mouse skin. Each slide contains different tissue samples corresponding to four different classes: normal, dysplasia, papilloma, and scc."

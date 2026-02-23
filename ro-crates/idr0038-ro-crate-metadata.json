@@ -135,7 +135,7 @@
           "@id": "#experiment-protocol-3-3"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000364"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000364"
         }
       ],
       "thumbnailUrl": [
@@ -193,7 +193,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000364",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000364",
       "@type": "DefinedTerm",
       "name": "light sheet fluorescence microscopy"
     },
@@ -203,7 +203,7 @@
       "name": "light sheet fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000364"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000364"
         }
       ],
       "description": "We have adapted the mouse kidney rudiment assay to generate renal organoids. To demonstrate that the organoid culture method of re-aggregated kidney rudiments in PDMS discs resulted in 3D kidney organoids with organotypic structures, we stained fixed six day old organoids for various developmental markers and imaged them with a light sheet fluorescent microscope. We have stained for the following markers: Megalin, Laminin, Cytokeratin, Pax2, Six2, Wt1, Synaptopodin and Nephrin and have also used the lectin stain PNA (peanut agglutinin). The spheroids were usually imaged as z stacks from five angles."
@@ -263,7 +263,7 @@
       "name": "light sheet fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000364"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000364"
         }
       ],
       "description": "All assays were performed on live cultures. The intact kidney rudiments were cultured at air liquid interface for 4 days following dissection. The organoids were cultured under medium immersion for six days following dissection. The samples cultured at air liquid interface were gently removed from the membranes before starting the assay. The samples were incubated for one hour at 25oC with PBS containing 1uM 5(6)-Carboxyfluorescein (6-CF) and 20 ug/ml of PNA (Vector Laboratories). For the control samples, 2 mM probenecid was also added to the solution to inhibit the organic anion transport. After incubation, the samples were washed with ice cold PBS for 10 mins followed by an incubation with 8mM probenecid in PBS for 15 mins to arrest any transport. The functional assay was concluded by two PBS washes and samples were then embedded in 1.5% agarose for imaging."
@@ -313,7 +313,7 @@
       "name": "light sheet fluorescence microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000364"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000364"
         }
       ],
       "description": "We have adapted the mouse kidney rudiment assay to generate renal organoids. 24 hours after pelleting 100,000 mouse kidney cells, organoids had formed in the PDMS dishes. For the PNA vital stain test we used kidney cells from wildtype mice and for the tracking time series we used cells from the Wt1tm1Nhsn strain, expressing GFP together with the transcription factor Wt1. One organoid was embedded in a hydrogel matrix (1.5% Agarose + 3% gelatine). In the microscope chamber, the hydrogel cylinder was extruded from the capillary so that the hydrogel column containing the organoid was located outside the capillary and immersed in medium (phenol red-free MEM + 10% FBS, 1% pen/strep, 3ug/ml PNA-rh) at 37oC and with 5% CO2. We recorded z stacks of the spheroids from multiple angles every 30 mins to record the location of the GFP expressing cells in three dimensions over time. There are three time series. These are available in the subfolders \"Time PNA-rh vital\", \"Wt1-GFP PNA Time Series 1\" and \"Wt1-GFP PNA Time Series 2\".  The time series data was processed in Fiji by opening the green channel only, binning in X and Y by a factor of two and converting it to 8 bit for processing in TrackMate (v.2.8.2) where we used the LoG (Laplacian of Gaussian) Detector and LAP (Linear Assignment Problem) Tracker options. Tracking data generated from the time series using the Track Mate plug in for Fiji is also provided in the time series data sets as \"Nspots vs Time.txt\", \"Track statistics.txt\", \"Links in tracks statistics.txt\" and \"Spots in tracks statistics.txt\". The data was analysed and plotted via the Matlab script provided as \"TrackMateDataAnalysis.txt\" in conjunction with the functions \"NSpotsFunction.txt\", \"SpotsInTracksFunction.txt\", \"TrackStatisticsFunction.txt\", \"Violin.txt\" and \"violinplot.txt\"."

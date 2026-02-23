@@ -100,7 +100,7 @@
           "@id": "#experiment-protocol-1-3"
         },
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "thumbnailUrl": [
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "@id": "http://purl.obolibrary.org/obo/FBBI_00000253",
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
       "@type": "DefinedTerm",
       "name": "spinning disk confocal microscopy"
     },
@@ -166,7 +166,7 @@
       "name": "spinning disk confocal microscopy",
       "measurementTechnique": [
         {
-          "@id": "http://purl.obolibrary.org/obo/FBBI_00000253"
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
         }
       ],
       "description": "We took 5400 field of views from three Parkinson's disease (PD) cases in the anterior cingulate gyrus for microglia and neuron markers respectively, covering dimensions of 4mm x 4mm x 13µm per patient. Cells were stained in 488nm channel while alpha-synuclein protein was labelled in 561nm channel. The colocalization study was performed based on the locations of detected cells and alpha-synucleins."
