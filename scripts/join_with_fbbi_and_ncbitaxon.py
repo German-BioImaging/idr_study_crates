@@ -112,7 +112,9 @@ def fbbi_closure(seed_ids: set[str], parents: dict[str, set[str]]) -> set[str]:
     return selected
 
 
-def write_fbbi_subset_ttl(selected: set[str], labels: dict[str, str], parents: dict[str, set[str]]) -> None:
+def write_fbbi_subset_ttl(
+    selected: set[str], labels: dict[str, str], parents: dict[str, set[str]]
+) -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with OUT_FBBI_TTL.open("w", encoding="utf-8") as f:
         f.write("@prefix obo: <http://purl.obolibrary.org/obo/> .\n")
@@ -180,7 +182,9 @@ def parse_ncbi_selected(
     return selected, names, ancestors
 
 
-def direct_ncbi_parents(selected: set[str], ancestors: dict[str, set[str]]) -> dict[str, set[str]]:
+def direct_ncbi_parents(
+    selected: set[str], ancestors: dict[str, set[str]]
+) -> dict[str, set[str]]:
     direct: dict[str, set[str]] = {}
     for child in selected:
         candidates = set(ancestors.get(child, set()))
@@ -196,7 +200,9 @@ def direct_ncbi_parents(selected: set[str], ancestors: dict[str, set[str]]) -> d
     return direct
 
 
-def write_ncbi_subset_ttl(selected: set[str], names: dict[str, str], direct_parents: dict[str, set[str]]) -> None:
+def write_ncbi_subset_ttl(
+    selected: set[str], names: dict[str, str], direct_parents: dict[str, set[str]]
+) -> None:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     with OUT_NCBI_TTL.open("w", encoding="utf-8") as f:
         f.write("@prefix obo: <http://purl.obolibrary.org/obo/> .\n")
@@ -240,7 +246,9 @@ def main() -> None:
     fbbi_selected = fbbi_closure(fbbi_seeds, fbbi_parents)
     write_fbbi_subset_ttl(fbbi_selected, fbbi_labels, fbbi_parents)
 
-    ncbi_selected, ncbi_names, ncbi_ancestors = parse_ncbi_selected(ncbi_seeds, ncbi_seed_names)
+    ncbi_selected, ncbi_names, ncbi_ancestors = parse_ncbi_selected(
+        ncbi_seeds, ncbi_seed_names
+    )
     ncbi_direct = direct_ncbi_parents(ncbi_selected, ncbi_ancestors)
     write_ncbi_subset_ttl(ncbi_selected, ncbi_names, ncbi_direct)
     write_joint_export_ttl()
