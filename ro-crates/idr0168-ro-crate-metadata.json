@@ -1,0 +1,235 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdfs:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "idr0168-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": {
+        "@id": "https://idr.openmicroscopy.org/study/idr0168/"
+      }
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/study/idr0168/",
+      "@type": "Dataset",
+      "name": "Prediction of protein subcellular localization in single cells",
+      "description": "The subcellular localization of a protein is important for its function, and its mislocalization is linked to numerous diseases. Existing datasets capture limited pairs of proteins and cell lines, and existing protein localization prediction models either miss cell-type specificity or cannot generalize to unseen proteins. Here we present a method for Prediction of Unseen Proteinsí Subcellular localization (PUPS). PUPS combines a protein language model and an image inpainting model to utilize both protein sequence and cellular images. We demonstrate that the protein sequence input enables generalization to unseen proteins, and the cellular image input captures single-cell variability, enabling cell-type-specific predictions. Experimental validation shows that PUPS can predict protein localization in newly performed experiments outside of the Human Protein Atlas used for training. Collectively, PUPS provides a framework for predicting differential protein localization across cell lines and single cells within a cell line, including changes in protein localization driven by mutations.",
+      "datePublished": "2025-11-20",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightNotice": "Zhang et al, CC-BY-4.0, 2025",
+      "identifier": "idr0168",
+      "publisher": {
+        "@id": "https://idr.openmicroscopy.org/"
+      },
+      "author": [
+        {
+          "@id": "#person-1"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-2308-3649"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-7008-0216"
+        }
+      ],
+      "seeAlso": [
+        {
+          "@id": "https://doi.org/10.1038/s41592-025-02696-1"
+        }
+      ],
+      "about": [
+        {
+          "@id": "#experiment-biosample-1"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        }
+      ],
+      "measurementMethod": [
+        {
+          "@id": "#experiment-protocol-1-0"
+        },
+        {
+          "@id": "#experiment-protocol-1-1"
+        },
+        {
+          "@id": "#experiment-protocol-1-2"
+        },
+        {
+          "@id": "#experiment-protocol-1-3"
+        },
+        {
+          "@id": "#experiment-protocol-1-4"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
+        }
+      ],
+      "thumbnailUrl": [
+        "https://idr.openmicroscopy.org/webgateway/render_thumbnail/15180168/"
+      ],
+      "size": [
+        {
+          "@id": "#total-dataset-size"
+        }
+      ]
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/",
+      "@type": "Organization",
+      "name": "Image Data Resource",
+      "url": "https://idr.openmicroscopy.org/"
+    },
+    {
+      "@id": "#person-1",
+      "@type": "Person",
+      "name": "Yunhao Bai",
+      "givenName": "Yunhao",
+      "familyName": "Bai",
+      "email": "yunb@broadinstitute.org",
+      "address": "75 Ames St, Cambridge, MA, 02142"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-2308-3649",
+      "@type": "Person",
+      "name": "Fei Chen",
+      "givenName": "Fei",
+      "familyName": "Chen",
+      "email": "chenf@broadinstitute.org",
+      "address": "75 Ames St, Cambridge, MA, 02142"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-7008-0216",
+      "@type": "Person",
+      "name": "Caroline Uhler",
+      "givenName": "Caroline",
+      "familyName": "Uhler",
+      "email": "cuhler@mit.edu",
+      "address": "75 Ames St, Cambridge, MA, 02142"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41592-025-02696-1",
+      "@type": "ScholarlyArticle",
+      "name": "Prediction of protein subcellular localization in single cells"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "@type": "Taxon",
+      "scientificName": "Homo sapiens"
+    },
+    {
+      "@id": "#experiment-biosample-1",
+      "@type": "BioSample",
+      "name": "cell",
+      "description": "This dataset provides the immunofluorescence images acquired during this study for the experimentally validation of PUPS. Cells of 5 cell lines were stained with antibody targeting a-tubulin, ER, and one kind of proteins out of 9 proteins that PUPS predicted, then imaged with 60x confocal with Z-stacks.",
+      "taxonomicRange": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
+      "@type": "DefinedTerm",
+      "name": "spinning disk confocal microscopy"
+    },
+    {
+      "@id": "#experiment-protocol-1-0",
+      "@type": "LabProtocol",
+      "name": "spinning disk confocal microscopy",
+      "measurementTechnique": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
+        }
+      ],
+      "description": "This dataset provides the immunofluorescence images acquired during this study for the experimentally validation of PUPS. Cells of 5 cell lines were stained with antibody targeting a-tubulin, ER, and one kind of proteins out of 9 proteins that PUPS predicted, then imaged with 60x confocal with Z-stacks."
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003789",
+      "@type": "DefinedTerm",
+      "name": "growth protocol"
+    },
+    {
+      "@id": "#experiment-protocol-1-1",
+      "@type": "LabProtocol",
+      "name": "growth protocol",
+      "description": "All cell lines were cultivated at 37°C in a 5% CO2 humidified incubator with medium suppled with 10% fetal bovine serum (FBS; Sigma-Aldrich, Cat# F4135), and 1% Pen Strep. Specifically, HeLa and HEK293 cells were cultivated in 1× DMEM with GlutaMax-1 (Gibco, Cat# 10569010), while MCF7, GAMG, and A375 cells were cultivated in RPMI 1640 (Gibco, Cat# 11835055).",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003789"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003969",
+      "@type": "DefinedTerm",
+      "name": "treatment protocol"
+    },
+    {
+      "@id": "#experiment-protocol-1-2",
+      "@type": "LabProtocol",
+      "name": "treatment protocol",
+      "description": "For immunofluorescent experiments, 96-well glass bottom plates (Greiner Bio-One, Cat# 655892,) were coated with 12.5 µg/ml fibronectin (Sigma-Aldrich, Cat# F0895) diluted in 1× PBS for 1 h at room temperature (RT). Then, wells were washed with 1× PBS, and 14,000 cells were seeded in each well to grow overnight. On the second day, cells were washed with 1× PBS, then fixed in 4% paraformaldehyde (PFA) in 1× PBS for 15 min (200 μL/well), followed by permeabilization with 0.1% Triton X-100 in 1× PBS for 3×5 min. Quick rinse the cells with 1x PBS. Before immunostaining, block the cells with blocking buffer (4% FBS in 1× PBS) for 5 min. After another quick washing step with 1× PBS, cells were incubated with the 1st antibodies overnight at 4 °C. [1st Antibody used: a-Tubulin (DM1A, Abcam, #ab7291, Mouse host, final concentration 1.0 μg/mL), calreticulin (Poly, Abcam, #ab2908, Chicken host, final concentration 1.25 μg/mL), all Atlas Antibodies were used at 2.0 μg/mL] On the next day, the cells were first washed with 1× PBS for 4×10 min, then incubated with the secondary fluorescence antibodies diluted with blocking buffer for 90 min at RT. Cells were subsequently counterstained with 4μ,6-diamidino-2-phenylindole (DAPI, Sigma #F0895) diluted in 1× PBS for 10 min (final concentration: 0.2 μg/mL), then washed with 4×10 min washes with 1× PBS, then kept in 1× PBS under 4 °C from light until imaging. [2nd antibody used: Anti-rabbit Alexa488 (Poly, Thermo #A11034, Goat host, final concentration 2.5 μg/mL), Anti-mouse Alexa555 (Poly, Thermo #A21424, Goat host, final concentration 2.5 μg/mL), Anti-chicken Alexa647 (Poly, Thermo #A21449, Goat host, final concentration 2.5 μg/mL)].",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003969"
+        }
+      ]
+    },
+    {
+      "@id": "#experiment-protocol-1-3",
+      "@type": "LabProtocol",
+      "name": "image acquisition and feature extraction protocol",
+      "description": "Fluorescent images were acquired with an Andor Dragonfly 200 spinning disk confocal microscope equipped with a Nikon Plan Apo 60×/1.4 oil objective. Here, z-stacks of at least six field-of-views (FOVs) of 205.8×205.8 μm were acquired for each cell line and HPA antibody combination, with pixel size of 0.1005 μm/pixel. The 405 nm laser was used to image nuclei (DAPI), 488 nm laser was used to image Alexa488-2nd Antibody agains HPA primary antibodies, the 561 nm laser was used to image a-tubulin through anti-mouse IgG-Alexa555 and anti-a-tubulin (DM1A, mouse, Ab7291), and the 647 nm laster was used to image ER through anti-chicken IgY-Alexa647 and anti-calreticulin (poly, chicken, Ab2908)."
+    },
+    {
+      "@id": "#experiment-protocol-1-4",
+      "@type": "LabProtocol",
+      "name": "data analysis protocol",
+      "description": "data analysis protocol"
+    },
+    {
+      "@id": "#total-dataset-size",
+      "@type": "QuantitativeValue",
+      "value": 428809534832,
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "description": "0.39 TB"
+    }
+  ]
+}

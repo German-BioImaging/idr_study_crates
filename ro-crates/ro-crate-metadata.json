@@ -2497,11 +2497,101 @@
       "encodingFormat": "application/ld+json"
     },
     {
+      "@id": "#subcrate-139",
+      "@type": "Dataset",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate"
+      },
+      "subjectOf": {
+        "@id": "./idr0167-ro-crate-metadata.json"
+      },
+      "name": "Predicting cell cycle stage from 3D single-cell nuclear-stained images",
+      "description": "The cell cycle governs proliferation of all eukaryotic cells. Profiling cell cycle dynamics is therefore central to basic and biomedical research. However, current approaches to cell cycle profiling involve complex interventions that may confound experimental interpretation. We developed CellCycleNet, a machine learning (ML) workflow, to simplify cell cycle staging from fluorescent microscopy data with minimal experimenter intervention and cost. CellCycleNet accurately predicts cell cycle phase using only a fluorescent nuclear stain (DAPI) in fixed interphase cells. Using the Fucci2a cell cycle reporter system as ground truth, we collected two benchmarking image datasets and trained 2D and 3D ML modelsÑof support vector machine (SVM) and deep neural network architectureÑto classify nuclei in the G1 or S/G2 phases. Our results show that 3D CellCycleNet outperforms SVM models on each dataset. When trained on two image datasets simultaneously, CellCycleNet achieves the highest classification accuracy (AUROC of 0.94-0.95). Overall, we found that using 3D features, rather than 2D features alone, significantly improves classification performance for all model architectures. We released our image data, models, and software as a community resource.",
+      "identifier": "https://idr.openmicroscopy.org/study/idr0167/"
+    },
+    {
+      "@id": "./idr0167-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "#subcrate-140",
+      "@type": "Dataset",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate"
+      },
+      "subjectOf": {
+        "@id": "./idr0168-ro-crate-metadata.json"
+      },
+      "name": "Prediction of protein subcellular localization in single cells",
+      "description": "The subcellular localization of a protein is important for its function, and its mislocalization is linked to numerous diseases. Existing datasets capture limited pairs of proteins and cell lines, and existing protein localization prediction models either miss cell-type specificity or cannot generalize to unseen proteins. Here we present a method for Prediction of Unseen Proteinsí Subcellular localization (PUPS). PUPS combines a protein language model and an image inpainting model to utilize both protein sequence and cellular images. We demonstrate that the protein sequence input enables generalization to unseen proteins, and the cellular image input captures single-cell variability, enabling cell-type-specific predictions. Experimental validation shows that PUPS can predict protein localization in newly performed experiments outside of the Human Protein Atlas used for training. Collectively, PUPS provides a framework for predicting differential protein localization across cell lines and single cells within a cell line, including changes in protein localization driven by mutations.",
+      "identifier": "https://idr.openmicroscopy.org/study/idr0168/"
+    },
+    {
+      "@id": "./idr0168-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "#subcrate-141",
+      "@type": "Dataset",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate"
+      },
+      "subjectOf": {
+        "@id": "./idr0170-ro-crate-metadata.json"
+      },
+      "name": "Imaging Mass Cytometry Dataset of Small-Cell Lung Cancer tumors and tumor environments",
+      "description": "SCLC_IMC is a dataset containing images from mouse SCLC tumors and their tumor environments, acquired with imaging mass cytometry.  Lung tumors were induced in two mouse lines differing by their tumor mutation burden (TMB). After appearance of the tumors, each mouse was treated with one of the five considered treatment.",
+      "identifier": "https://idr.openmicroscopy.org/study/idr0170/"
+    },
+    {
+      "@id": "./idr0170-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "#subcrate-142",
+      "@type": "Dataset",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate"
+      },
+      "subjectOf": {
+        "@id": "./idr0171-ro-crate-metadata.json"
+      },
+      "name": "Interdisciplinary Study on Drug-Induced-Phospholipidosis of Repurposing Libraries through Machine Learning and Experimental Evaluation in Different Cell Lines",
+      "description": "Phospholipidosis (PLD) is a cellular adverse effect that is, among others, caused by numerous cationic amphiphilic drugs. Interest is raised within pharma discovery to predict this phenomenon, as it can impact the outcome of phenotypic cellular screens and significantly delay drug development processes. The development of accurate and validated machine learning models for predicting drug-induced PLD across different cell lines and research centers could provide a valuable early application tool for the pharmaceutical industry, potentially accelerating drug discovery and reducing the risk of late-stage failures. We report here the assembly, curation, testing and modeling of one of the largest datasets of repurposed drugs (5000+) tested for PLD induction on different cell lines. A machine-learning classification method was developed and validated to predict whether molecules are prone to induce PLD effects when applied in cell-based screens.",
+      "identifier": "https://idr.openmicroscopy.org/study/idr0171/"
+    },
+    {
+      "@id": "./idr0171-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "encodingFormat": "application/ld+json"
+    },
+    {
+      "@id": "#subcrate-143",
+      "@type": "Dataset",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate"
+      },
+      "subjectOf": {
+        "@id": "./idr0173-ro-crate-metadata.json"
+      },
+      "name": "Early Parkinson’s disease is defined by α-synuclein oligomer-driven aggregation susceptible cells",
+      "description": "The mechanisms underlying early Parkinson’s disease (PD) remain unexplained. While the aggregation of alpha-synuclein (αSyn) into Lewy bodies (LBs) characterises the pathology of later stages, emerging evidence suggests that small, toxic αSyn oligomers may drive disease during the pre-symptomatic phase. Here, we introduce the concept of Aggregation-Susceptible Cells (ASCs): neurons that, due to elevated intracellular αSyn concentration, are predisposed to forming pathological aggregates. Using quantitative imaging, we identified 9,882 neurons containing 112 million αSyn oligomers across multiple brain regions from post-mortem human tissue of early-stage PD cases and controls. No increase in intracellular αSyn concentration in early disease was found; in other words, there is no “unique cell” in PD with an unexpectedly high αSyn oligomer concentration. However, the proportion of ASCs was significantly elevated in brain regions undergoing early pathological manifestation. This finding supports a model in which idiopathic PD pathogenesis is not driven by a change in αSyn aggregation kinetics at the protein level, but rather by an increased prevalence of neurons stochastically crossing a critical concentration threshold for aggregation at the cell-population level. These results identify cell aggregation susceptibility as a fundamental mechanism in the earliest transition to pathology and offer a new quantitative framework for understanding early-stage protein misfolding in PD.",
+      "identifier": "https://idr.openmicroscopy.org/study/idr0173/"
+    },
+    {
+      "@id": "./idr0173-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "encodingFormat": "application/ld+json"
+    },
+    {
       "@id": "./",
       "@type": "Dataset",
       "name": "IDR study RO-Crates",
       "description": "Index of RO-Crates generated from IDR study metadata.",
-      "datePublished": "2026-03-13",
+      "datePublished": "2026-04-22",
       "hasPart": [
         {
           "@id": "#subcrate-1"
@@ -2916,6 +3006,21 @@
         },
         {
           "@id": "#subcrate-138"
+        },
+        {
+          "@id": "#subcrate-139"
+        },
+        {
+          "@id": "#subcrate-140"
+        },
+        {
+          "@id": "#subcrate-141"
+        },
+        {
+          "@id": "#subcrate-142"
+        },
+        {
+          "@id": "#subcrate-143"
         }
       ]
     }

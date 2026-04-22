@@ -1,0 +1,280 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdfs:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "idr0167-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": {
+        "@id": "https://idr.openmicroscopy.org/study/idr0167/"
+      }
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/study/idr0167/",
+      "@type": "Dataset",
+      "name": "Predicting cell cycle stage from 3D single-cell nuclear-stained images",
+      "description": "The cell cycle governs proliferation of all eukaryotic cells. Profiling cell cycle dynamics is therefore central to basic and biomedical research. However, current approaches to cell cycle profiling involve complex interventions that may confound experimental interpretation. We developed CellCycleNet, a machine learning (ML) workflow, to simplify cell cycle staging from fluorescent microscopy data with minimal experimenter intervention and cost. CellCycleNet accurately predicts cell cycle phase using only a fluorescent nuclear stain (DAPI) in fixed interphase cells. Using the Fucci2a cell cycle reporter system as ground truth, we collected two benchmarking image datasets and trained 2D and 3D ML modelsÑof support vector machine (SVM) and deep neural network architectureÑto classify nuclei in the G1 or S/G2 phases. Our results show that 3D CellCycleNet outperforms SVM models on each dataset. When trained on two image datasets simultaneously, CellCycleNet achieves the highest classification accuracy (AUROC of 0.94-0.95). Overall, we found that using 3D features, rather than 2D features alone, significantly improves classification performance for all model architectures. We released our image data, models, and software as a community resource.",
+      "datePublished": "2026-03-30",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightNotice": "Li and Nichols et al, CC-BY-4.0, 2026",
+      "identifier": "idr0167",
+      "publisher": {
+        "@id": "https://idr.openmicroscopy.org/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0002-8501-8028"
+        }
+      ],
+      "seeAlso": [
+        {
+          "@id": "https://doi.org/10.26508/lsa.202403067"
+        }
+      ],
+      "about": [
+        {
+          "@id": "#experiment-biosample-1"
+        },
+        {
+          "@id": "#experiment-biosample-2"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        }
+      ],
+      "measurementMethod": [
+        {
+          "@id": "#experiment-protocol-1-0"
+        },
+        {
+          "@id": "#experiment-protocol-2-0"
+        },
+        {
+          "@id": "#experiment-protocol-1-1"
+        },
+        {
+          "@id": "#experiment-protocol-1-2"
+        },
+        {
+          "@id": "#experiment-protocol-1-3"
+        },
+        {
+          "@id": "#experiment-protocol-1-4"
+        },
+        {
+          "@id": "#experiment-protocol-2-1"
+        },
+        {
+          "@id": "#experiment-protocol-2-2"
+        },
+        {
+          "@id": "#experiment-protocol-2-3"
+        },
+        {
+          "@id": "#experiment-protocol-2-4"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
+        }
+      ],
+      "thumbnailUrl": [
+        "https://idr.openmicroscopy.org/webgateway/render_thumbnail/15232834/"
+      ]
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/",
+      "@type": "Organization",
+      "name": "Image Data Resource",
+      "url": "https://idr.openmicroscopy.org/"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8501-8028",
+      "@type": "Person",
+      "name": "Eva Nichols",
+      "givenName": "Eva",
+      "familyName": "Nichols",
+      "email": "eknich@uw.edu",
+      "address": "Dept. of Genome Sciences, Foege South-303A, Box 355065, 3720 15th Ave NE, Seattle, WA 98105, USA"
+    },
+    {
+      "@id": "https://doi.org/10.26508/lsa.202403067",
+      "@type": "ScholarlyArticle",
+      "name": "Predicting cell cycle stage from 3D single-cell nuclear-stained images"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "@type": "Taxon",
+      "scientificName": "Mus musculus"
+    },
+    {
+      "@id": "#experiment-biosample-1",
+      "@type": "BioSample",
+      "name": "cell",
+      "description": "CellCycleNet 60x Confocal Dataset.",
+      "taxonomicRange": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000251",
+      "@type": "DefinedTerm",
+      "name": "confocal microscopy"
+    },
+    {
+      "@id": "#experiment-protocol-1-0",
+      "@type": "LabProtocol",
+      "name": "confocal microscopy",
+      "measurementTechnique": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000251"
+        }
+      ],
+      "description": "CellCycleNet 60x Confocal Dataset."
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003789",
+      "@type": "DefinedTerm",
+      "name": "growth protocol"
+    },
+    {
+      "@id": "#experiment-protocol-1-1",
+      "@type": "LabProtocol",
+      "name": "Cell growth",
+      "description": "The Fucci (Fluorescent Ubiquitination-based Cell Cycle Indicator) 3T3 Fucci2a reporter cell line was a gracious gift from Richard Mort and were maintained in complete 3T3 complete cell culture media (high glucose 4.5 g/L DMEM with 2 mM L-glutamine, 10% FBS, and 1% pen/strep antibiotic) in the presence of 100-200 ug/mL hygromycin selection antibiotic. Prior to imaging experiments, ~70,000 cells were seeded in a 35 mm dish. Next day, cells were fixed in 4% PFA in 1xPBS for 10 minutes, followed by three washes in 1xPBS for one minute each prior to immunofluorescence staining.",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003789"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003969",
+      "@type": "DefinedTerm",
+      "name": "treatment protocol"
+    },
+    {
+      "@id": "#experiment-protocol-1-2",
+      "@type": "LabProtocol",
+      "name": "treatment protocol",
+      "description": "A tiled acquisition was obtained over approximately 21 square millimeters of the cell culture plate, at fixed z range of 30 µm and z-step of 0.2 µm. Each image consists of three fluorescent channels, using excitation light emitted at 30 percent maximal intensity from 405 nm, 488 nm, and 561 nm lasers housed in a Nikon LUNF 405/488/561/640NM 1F commercial launch. The nuclear stain DAPI was excited by the 405 nm laser line at 300 ms exposure; the mVenus-hGeminin-AF488 signal was excited by the 488 nm laser line at 300 ms exposure; the mCherry-hCdt1-AF555 signal was excited by the 561 nm laser line at 300 ms exposure. Laser excitation was conveyed through a single-mode optical fiber fed into the CSU-W1 SoRa unit and directed through a microlens array and ÕSoRaÕ disc containing 50 µm pinholes. A Nikon Plan Apochromat Lambda 60X air objective lens (NA 0.95/0.17 mm) was used to project the excitation and collects the emission light. Emission light was relayed by a 1x lens, through the pinhole disc, after which it was spectrally separated by a quad bandpass dichroic mirror (Semrock Di01-T405/488/568/647-13x15x0.5) and then filtered by one of three single bandpass filters (DAPI: Chroma ET455/50M; mVenus-hGeminin-AF488: Chroma ET525/36M; mCherry-hCdt1-AF555:Chroma ET605/50M). Emission light was then focused by a 1x relay lens onto an Andor Sona 4.2B-11 camera with a physical pixel size of 11 µm, resulting in an effective pixel size of 110 nm. The Andor Sona 4.2B-11 camera was operated in 16-bit mode with rolling shutter. The final dataset used for analysis and model training consists of 625 tiled z-stacks (150 images per z-stack) and 3 channels; each image is 1024x1024 pixels. The voxel size for each image in the dataset was 182nm*182nm*200nm (X*Y*Z).",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003969"
+        }
+      ]
+    },
+    {
+      "@id": "#experiment-protocol-1-3",
+      "@type": "LabProtocol",
+      "name": "image acquisition",
+      "description": "We performed instance segmentation and preprocessed the data prior to machine learning (ML) model training. Please see the manuscript and/or GitHub repository for details regarding CellCycleNet model training and/or implementation after preprocessing steps."
+    },
+    {
+      "@id": "#experiment-protocol-1-4",
+      "@type": "LabProtocol",
+      "name": "data analysis protocol",
+      "description": "data analysis protocol"
+    },
+    {
+      "@id": "#experiment-biosample-2",
+      "@type": "BioSample",
+      "name": "cell",
+      "description": "CellCycleNet 40x Epifluorescent  Dataset.",
+      "taxonomicRange": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000246",
+      "@type": "DefinedTerm",
+      "name": "wide-field epi-fluorescence microscopy"
+    },
+    {
+      "@id": "#experiment-protocol-2-0",
+      "@type": "LabProtocol",
+      "name": "wide-field epi-fluorescence microscopy",
+      "measurementTechnique": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000246"
+        }
+      ],
+      "description": "CellCycleNet 40x Epifluorescent  Dataset."
+    },
+    {
+      "@id": "#experiment-protocol-2-1",
+      "@type": "LabProtocol",
+      "name": "Cell growth",
+      "description": "The Fucci (Fluorescent Ubiquitination-based Cell Cycle Indicator) 3T3 Fucci2a reporter cell line was a gracious gift from Richard Mort and were maintained in complete 3T3 complete cell culture media (high glucose 4.5 g/L DMEM with 2 mM L-glutamine, 10% FBS, and 1% pen/strep antibiotic) in the presence of 100-200 ug/mL hygromycin selection antibiotic. Prior to imaging experiments, ~70,000 cells were seeded in a 35 mm dish. Next day, cells were fixed in 4% PFA in 1xPBS for 10 minutes, followed by three washes in 1xPBS for one minute each prior to immunofluorescence staining.",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003789"
+        }
+      ]
+    },
+    {
+      "@id": "#experiment-protocol-2-2",
+      "@type": "LabProtocol",
+      "name": "treatment protocol",
+      "description": "All images were acquired using the Keyence Plan Apochromatic 40x objective lens (model PZ-PA40, PlanApo NA 0.95/0.17 mm default). A tiled acquisition was obtained over approximately 5 square millimeters of the cell culture plate, at fixed z range of 35 µm, z-step of 0.5 µm, and optical sectioning width of 10. 100% excitation light (metal halide lamp) was used with no binning and monochromatic camera with a digital zoom of x1.0. Each image consists of three fluorescent channels: nuclear stain DAPI (using the DAPI filter cube; model OP-87762, 360/40 nm excitation filter, 400 nm longpass dichroic mirror, 460/50 nm emission filter; 1/1.2s exposure time), the mVenus-hGeminin-AF488 signal (via the GFP filter cube; model OP-87763, excitation wavelength 470/40 nm, emission wavelength 525/50 nm, dichroic mirror wavelength 495 nm; 1/2.3s exposure time), and the mCherry-hCdt1-AF555 signal (via the Cy3/TRITC filter cube; CHROMA model 49004, excitation wavelength 545/25 nm, emission wavelength 605/70 nm, dichroic mirror wavelength 565 nm; 1/7.5s exposure time). An integrated CCD camera was used in 14-bit mode, without binning and with a physical pixel size of 7.549 µm, resulting in an effective pixel size of 188.7 nm while imaging at 40x magnification. The final dataset used for analysis and model training consists of 19,170 total images over 90 tiled z-stacks (71 images per z-stack) and 3 channels; each image is 1440x1920 pixels. The voxel size for each image in the dataset was 188nm*188nm*500nm (X*Y*Z).",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003969"
+        }
+      ]
+    },
+    {
+      "@id": "#experiment-protocol-2-3",
+      "@type": "LabProtocol",
+      "name": "image acquisition",
+      "description": "We performed instance segmentation and preprocessed the data prior to machine learning (ML) model training. Please see the manuscript and/or GitHub repository for details regarding CellCycleNet model training and/or implementation after preprocessing steps."
+    },
+    {
+      "@id": "#experiment-protocol-2-4",
+      "@type": "LabProtocol",
+      "name": "data analysis protocol",
+      "description": "data analysis protocol"
+    }
+  ]
+}

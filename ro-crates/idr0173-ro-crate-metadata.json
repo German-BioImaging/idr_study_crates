@@ -1,0 +1,215 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdfs:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "idr0173-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": {
+        "@id": "https://idr.openmicroscopy.org/study/idr0173/"
+      }
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/study/idr0173/",
+      "@type": "Dataset",
+      "name": "Early Parkinson’s disease is defined by α-synuclein oligomer-driven aggregation susceptible cells",
+      "description": "The mechanisms underlying early Parkinson’s disease (PD) remain unexplained. While the aggregation of alpha-synuclein (αSyn) into Lewy bodies (LBs) characterises the pathology of later stages, emerging evidence suggests that small, toxic αSyn oligomers may drive disease during the pre-symptomatic phase. Here, we introduce the concept of Aggregation-Susceptible Cells (ASCs): neurons that, due to elevated intracellular αSyn concentration, are predisposed to forming pathological aggregates. Using quantitative imaging, we identified 9,882 neurons containing 112 million αSyn oligomers across multiple brain regions from post-mortem human tissue of early-stage PD cases and controls. No increase in intracellular αSyn concentration in early disease was found; in other words, there is no “unique cell” in PD with an unexpectedly high αSyn oligomer concentration. However, the proportion of ASCs was significantly elevated in brain regions undergoing early pathological manifestation. This finding supports a model in which idiopathic PD pathogenesis is not driven by a change in αSyn aggregation kinetics at the protein level, but rather by an increased prevalence of neurons stochastically crossing a critical concentration threshold for aggregation at the cell-population level. These results identify cell aggregation susceptibility as a fundamental mechanism in the earliest transition to pathology and offer a new quantitative framework for understanding early-stage protein misfolding in PD.",
+      "datePublished": "2025-11-20",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightNotice": "Breiter et al, CC-BY-4.0, 2025",
+      "identifier": "idr0173",
+      "publisher": {
+        "@id": "https://idr.openmicroscopy.org/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0003-4726-230X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0001-9671-657X"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-3616-1610"
+        },
+        {
+          "@id": "https://orcid.org/0000-0003-4492-5139"
+        }
+      ],
+      "about": [
+        {
+          "@id": "#experiment-biosample-1"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        }
+      ],
+      "measurementMethod": [
+        {
+          "@id": "#experiment-protocol-1-0"
+        },
+        {
+          "@id": "#experiment-protocol-1-1"
+        },
+        {
+          "@id": "#experiment-protocol-1-2"
+        },
+        {
+          "@id": "#experiment-protocol-1-3"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
+        }
+      ],
+      "thumbnailUrl": [
+        "https://idr.openmicroscopy.org/webgateway/render_thumbnail/15199994/"
+      ]
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/",
+      "@type": "Organization",
+      "name": "Image Data Resource",
+      "url": "https://idr.openmicroscopy.org/"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4726-230X",
+      "@type": "Person",
+      "name": "Joseph Beckwith",
+      "givenName": "Joseph",
+      "familyName": "Beckwith",
+      "email": "jsb92@cam.ac.uk",
+      "address": "Yusuf Hamied Department of Chemistry, Lensfield Road, CB2 1EW"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-9671-657X",
+      "@type": "Person",
+      "name": "Jonathan Breiter",
+      "givenName": "Jonathan",
+      "familyName": "Breiter",
+      "email": "jcb228@cam.ac.u",
+      "address": "Yusuf Hamied Department of Chemistry, Lensfield Road, CB2 1EW"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-3616-1610",
+      "@type": "Person",
+      "name": "Michele Vendruscolo",
+      "givenName": "Michele",
+      "familyName": "Vendruscolo",
+      "email": "mv245@cam.ac.uk",
+      "address": "Yusuf Hamied Department of Chemistry, Lensfield Road, CB2 1EW"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-4492-5139",
+      "@type": "Person",
+      "name": "Steven Lee",
+      "givenName": "Steven",
+      "familyName": "Lee",
+      "email": "sl591@cam.ac.uk",
+      "address": "Yusuf Hamied Department of Chemistry, Lensfield Road, CB2 1EW"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9606",
+      "@type": "Taxon",
+      "scientificName": "Homo sapiens"
+    },
+    {
+      "@id": "#experiment-biosample-1",
+      "@type": "BioSample",
+      "name": "tissue",
+      "description": "Formalin-fixed paraffin-embedded (FFPE) tissue sections were obtained from the cingulate cortex (see tables S2 and S3) and cut to 8 μm thickness. FFPE sections were baked at 37 ℃ for 24 hours followed by 60 ℃ overnight. Sections were deparaffinized in xylene, and rehydrated using graded alcohols. Non-specific binding was blocked with 10% bovine serum albumin (BSA) solution in PBS for 30 minutes. The tissue was then pressure cooked in citrate buffer at pH 6 for 10 minutes. Tissue sections were incubated with primary antibodies; anti-phosphorylated alpha-synuclein (ab59264, AB_2270761, Abcam, 1:200); and either ionized calcium-binding adapter molecule 1 (GT10312, Thermo Fisher, AB_2735228, 1:500) or Microtubule-Associated Protein 2 (ab254143, Abcam, AB_2936822, 1:500) for 1h at room temperature. The sections were then washed three times for five minutes in PBS followed by the corresponding AlexaFluor secondary antibodies (anti-rabbit 568, A11011, AB_143157, Thermo Fisher, anti-mouse 488, A11001, AB_2534069, Thermo Fisher, all at 1:200) for an additional hour at room temperature in the dark. Sections were then washed three times for five minutes again in PBS and incubated in Sudan Black (0.1% for 10 minutes, 199664-25G, Sigma Aldrich). Removal of Sudan Black occurred with three washes in 30% ethanol (E7148-500ML, Sigma Aldrich) before mounting with Vectashield+ (Vector Labs, H-1900) and coverslipping (VWR, 50 mm ✕ 24 mm #1 thickness, Catalogue Number 48404-453) for imaging. Sections were stored at 4 ℃ until imaging was completed.",
+      "taxonomicRange": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
+      "@type": "DefinedTerm",
+      "name": "spinning disk confocal microscopy"
+    },
+    {
+      "@id": "#experiment-protocol-1-0",
+      "@type": "LabProtocol",
+      "name": "spinning disk confocal microscopy",
+      "measurementTechnique": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
+        }
+      ],
+      "description": "Formalin-fixed paraffin-embedded (FFPE) tissue sections were obtained from the cingulate cortex (see tables S2 and S3) and cut to 8 μm thickness. FFPE sections were baked at 37 ℃ for 24 hours followed by 60 ℃ overnight. Sections were deparaffinized in xylene, and rehydrated using graded alcohols. Non-specific binding was blocked with 10% bovine serum albumin (BSA) solution in PBS for 30 minutes. The tissue was then pressure cooked in citrate buffer at pH 6 for 10 minutes. Tissue sections were incubated with primary antibodies; anti-phosphorylated alpha-synuclein (ab59264, AB_2270761, Abcam, 1:200); and either ionized calcium-binding adapter molecule 1 (GT10312, Thermo Fisher, AB_2735228, 1:500) or Microtubule-Associated Protein 2 (ab254143, Abcam, AB_2936822, 1:500) for 1h at room temperature. The sections were then washed three times for five minutes in PBS followed by the corresponding AlexaFluor secondary antibodies (anti-rabbit 568, A11011, AB_143157, Thermo Fisher, anti-mouse 488, A11001, AB_2534069, Thermo Fisher, all at 1:200) for an additional hour at room temperature in the dark. Sections were then washed three times for five minutes again in PBS and incubated in Sudan Black (0.1% for 10 minutes, 199664-25G, Sigma Aldrich). Removal of Sudan Black occurred with three washes in 30% ethanol (E7148-500ML, Sigma Aldrich) before mounting with Vectashield+ (Vector Labs, H-1900) and coverslipping (VWR, 50 mm ✕ 24 mm #1 thickness, Catalogue Number 48404-453) for imaging. Sections were stored at 4 ℃ until imaging was completed."
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003808",
+      "@type": "DefinedTerm",
+      "name": "Staining protocol"
+    },
+    {
+      "@id": "#experiment-protocol-1-1",
+      "@type": "LabProtocol",
+      "name": "Staining protocol",
+      "description": "Formalin-fixed paraffin-embedded (FFPE) tissue sections were obtained from the cingulate cortex (see tables S2 and S3) and cut to 8 μm thickness. FFPE sections were baked at 37 ℃ for 24 hours followed by 60 ℃ overnight. Sections were deparaffinized in xylene and rehydrated using graded alcohols. Non-specific binding was blocked with 10% bovine serum albumin (BSA) solution in PBS for 30 minutes. Heat mediated epitope retrieval was undertaken with tissue sections pressure cooked in citrate buffer at pH 6 for 10 minutes. Tissue sections were incubated with primary antibodies; anti-phosphorylated alpha-synuclein (ab59264, AB_2270761, Abcam, 1:200); and either ionized calcium-binding adapter molecule 1 (GT10312, Thermo Fisher, AB_2735228, 1:500) or Microtubule-Associated Protein 2 (ab254143, Abcam, AB_2936822, 1:500) for 1h at room temperature. The sections were then washed three times for five minutes in PBS followed by the corresponding AlexaFluor secondary antibodies (anti-rabbit 568, A11011, AB_143157, Thermo Fisher, anti-mouse 488, A11001, AB_2534069, Thermo Fisher, all at 1:200) for an additional hour at room temperature in the dark. Sections were then washed three times for five minutes again in PBS and incubated in Sudan Black (0.1% for 10 minutes, 199664-25G, Sigma Aldrich). Removal of Sudan Black occurred with three washes in 30% ethanol (E7148-500ML, Sigma Aldrich) before being mounted with Vectashield+ (Vector Labs, H-1900, VWR, 50 mm × 24 mm #1 thickness, Catalogue Number 48404-453) for imaging. Sections were stored at 4°C until imaging was completed.",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003808"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0004346",
+      "@type": "DefinedTerm",
+      "name": "Imaging Protocol"
+    },
+    {
+      "@id": "#experiment-protocol-1-2",
+      "@type": "LabProtocol",
+      "name": "Imaging Protocol",
+      "description": "Brain imaging was conducted according to previously established protocol (). Briefly, three random locations were chosen for each brain tissue section in the grey matter. At each location, a 3 × 3 grid of 132 μm (x) × 132 μm (y) × 12 μm (z) z-stacks were acquired with 100 ms exposure time. This amounts to a total of 675 images per patient per cell type per brain region with an area of 5,645,376 μm2 covered on each sample.",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0004346"
+        }
+      ]
+    },
+    {
+      "@id": "#experiment-protocol-1-3",
+      "@type": "LabProtocol",
+      "name": "Image analysis protocol",
+      "description": "Aggregate detection proceeded using the RASP pipeline described in Fu et al. [https://pubs.acs.org/doi/10.1021/acs.jpcb.4c00174]. To briefly summarise, images underwent a high-pass kernel, obtained through the difference between the original image and a Gaussian-blurred image (σ = 1.4px), followed by a Laplacian-of-Gaussian (LoG) kernel (σ = 2px). Puncta were selected as pixels in the top 95th percentile of brightness, and these were then accepted or rejected based on their integrated gradients and flatness [18]. These gradient and flatness thresholds are determined based on negative control data for each round of imaging.  For cell mask detection, each 2D image was enhanced using a difference-of-Gaussian filter, with σ1 = 2px and σ2 = 60px. The image was then thresholded into a binary mask using a Yen threshold [60]. This binary mask then had a binary opening operation applied to it with a disk morphology of radius 1 pixel, which was then followed by a binary closing operation with a disk morphology of radius 5 pixels. When all of the images in a volumetric stack had binary masks generated in this way, the scikit.image function binary_fill_holes [61] was applied to the full 3D volume, after which small holes of <100 voxels were removed. Post this, 3D objects below a specified cell size were removed to end up with the final cell masks used for analysis."
+    }
+  ]
+}

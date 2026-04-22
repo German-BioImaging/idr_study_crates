@@ -1,0 +1,223 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdfs:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "idr0170-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": {
+        "@id": "https://idr.openmicroscopy.org/study/idr0170/"
+      }
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/study/idr0170/",
+      "@type": "Dataset",
+      "name": "Imaging Mass Cytometry Dataset of Small-Cell Lung Cancer tumors and tumor environments",
+      "description": "SCLC_IMC is a dataset containing images from mouse SCLC tumors and their tumor environments, acquired with imaging mass cytometry.  Lung tumors were induced in two mouse lines differing by their tumor mutation burden (TMB). After appearance of the tumors, each mouse was treated with one of the five considered treatment.",
+      "datePublished": "2025-08-06",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "copyrightNotice": "Rose et al, CC0-1.0, 2025",
+      "identifier": "idr0170",
+      "publisher": {
+        "@id": "https://idr.openmicroscopy.org/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-5828-3259"
+        },
+        {
+          "@id": "#person-2"
+        }
+      ],
+      "about": [
+        {
+          "@id": "#experiment-biosample-1"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        }
+      ],
+      "measurementMethod": [
+        {
+          "@id": "#experiment-protocol-1-0"
+        },
+        {
+          "@id": "#experiment-protocol-1-1"
+        },
+        {
+          "@id": "#experiment-protocol-1-2"
+        },
+        {
+          "@id": "#experiment-protocol-1-3"
+        },
+        {
+          "@id": "#experiment-protocol-1-4"
+        },
+        {
+          "@id": "#term"
+        }
+      ],
+      "thumbnailUrl": [
+        "https://idr.openmicroscopy.org/webgateway/render_thumbnail/15179838/"
+      ],
+      "size": [
+        {
+          "@id": "#total-dataset-size"
+        },
+        {
+          "@id": "#file-count"
+        }
+      ]
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/",
+      "@type": "Organization",
+      "name": "Image Data Resource",
+      "url": "https://idr.openmicroscopy.org/"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5828-3259",
+      "@type": "Person",
+      "name": "France Rose",
+      "givenName": "France",
+      "familyName": "Rose",
+      "email": "france.rose@wanadoo.fr",
+      "address": "Robert-Koch Strasse 21, 50931 Köln, Germany   Weyertal 115b, 50931 Köln, Germany"
+    },
+    {
+      "@id": "#person-2",
+      "@type": "Person",
+      "name": "Olta Ibruli",
+      "givenName": "Olta",
+      "familyName": "Ibruli",
+      "email": "ibruliolta@yahoo.com"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10090",
+      "@type": "Taxon",
+      "scientificName": "Mus musculus"
+    },
+    {
+      "@id": "#experiment-biosample-1",
+      "@type": "BioSample",
+      "name": "tissue",
+      "description": "Imaging Mass Cytometry multi-channel images.",
+      "taxonomicRange": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10090"
+        }
+      ]
+    },
+    {
+      "@id": "#term",
+      "@type": "DefinedTerm",
+      "name": "imaging mass cytometry"
+    },
+    {
+      "@id": "#experiment-protocol-1-0",
+      "@type": "LabProtocol",
+      "name": "imaging mass cytometry",
+      "measurementTechnique": [
+        {
+          "@id": "#term"
+        }
+      ],
+      "description": "Imaging Mass Cytometry multi-channel images."
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003789",
+      "@type": "DefinedTerm",
+      "name": "growth protocol"
+    },
+    {
+      "@id": "#experiment-protocol-1-1",
+      "@type": "LabProtocol",
+      "name": "growth protocol",
+      "description": "How the cells were grown: Animal experiments for this study were approved by the local Ethics Committee of Animal Experiments authorities (LANUV, North Rhine-Westphalia, Germany) under license number 81-02.04.2019-A491. All mice were housed and cared for according to FELASA recommendations and in compliance with the European Union and German guidelines. Mice were bred in individually ventilated cages (IVCs). Up to five mice  were housed per cage, under a 12-hour light/dark cycle and at a temperature of 20–22°C. Two mouse models were used in this study. The RP model, harboring Rb1fl/fl and Trp53fl/fl alleles, was generated as described by Meuwissen et al., 2003, and mimics the classic small cell lung cancer (SCLC) pathology. MMR deficiency in the RP background was achieved through the incorporation of a conditional Msh2 knockout, generating the RPM model (Rb1fl/fl;Trp53fl/fl;Msh2fl/fl). This involved crossing RP mice with Msh2LoxP/LoxP mice, carrying a floxed exon 12 (Kucherlapati et al., 2010). Tumor induction was achieved through intratracheal delivery of Adeno-CMV-Cre, which facilitated the simultaneous loss of Rb1, Trp53, and Msh2 alleles in lung epithelial cells. Tumors typically developed within six months, monitored bi-weekly via MRI.",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003789"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003969",
+      "@type": "DefinedTerm",
+      "name": "treatment protocol"
+    },
+    {
+      "@id": "#experiment-protocol-1-2",
+      "@type": "LabProtocol",
+      "name": "treatment protocol",
+      "description": "Specific treatment to the cells: A structured preclinical therapy design was implemented to assess the efficacy of the different treatment regimens. The treatments were administrated when the tumor was visible on the MRI scan and the tumor burden was within the 5-20 mm3. We assigned randomly RPM and RP mice to different therapies. 1- Platinum-based chemotherapy (standard clinical care for SCLC): A combination of Etoposide and Cisplatin was used. Etoposide (8 mg/kg) was delivered intraperitoneally (i.p.) on days 1, 2, and 3 of a two-week cycle. Cisplatin (4 mg/kg) was given i.p. on day 1 of the same cycle. 2- Immune checkpoint inhibition (standard clinical practice for SCLC): To target the upregulated PD-1/PD-L1 immune checkpoint pathway in SCLC, the anti-PD-1 antibody RMP1-14 (BioXCell) was utilized (Yan et al., 2016). It was administered i.p. at 200 µg per mouse. Two dosing schedules were employed: three times per week until euthanasia criteria were met or twice a week for three weeks. 3- Treg suppressor (Palbociclib for CDK4/6 inhibition): Various studies have shown that tumors could respond to regulatory T cell suppression (Facciabene et al., 2012; Li et al., 2024). Palbociclib, a CDK4/6 inhibitor, was administered orally (100 mg/kg) on days 1-7 of a two-week cycle. 4- Combination of chemotherapy and immune checkpoint inhibition (first-line treatment in the clinics). 5- Combination Treg suppressor with chemotherapy and immune checkpoint inhibition. 6- Vehicle: To ensure that any differences in the results of the study, the control group was treated with phosphate-buffered saline (PBS) (3 times per week). Mice were closely monitored throughout treatment for general health, including body weight, appearance, and signs of distress such as breathing difficulties. Bi-weekly MRI imaging was employed to monitor tumor development. Animals exhibiting more than 20% weight loss, severe ulcers, or respiratory complications were euthanized. Animals removed for non-cancer-related reasons, such as injuries from cage mates, were excluded from analysis.",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003969"
+        }
+      ]
+    },
+    {
+      "@id": "#experiment-protocol-1-3",
+      "@type": "LabProtocol",
+      "name": "image acquisition and feature extraction protocol",
+      "description": "Labeling, the imaging hardware and software, feature extraction methods: To assess differences between the mouse lines and treatment groups at a tissue and cellular level, we imaged tumor and border tissues with Imaging Mass Cytometry (IMC). Lungs bearing tumors were first harvested, followed by the dissection of the tumor and its adjacent normal lung tissue. To prevent tissue damage, tumor tissues were treated with 20% ice-cold sucrose for 30 minutes. Tumor tissues were embedded in Tissue-Tek O.C.T. Compound (Sakura) and rapidly frozen in an isopentane bath cooled with liquid nitrogen to maintain structural integrity. Then, the frozen blocks were stored at -80ºC before further processing. Separate TMAs were constructed for RP and RPM samples. TMAs facilitate the staining, imaging and analysis in a high-throughput manner.Ten tumors per treatment group, one tumor per mouse, were selected. First, some Tissue-Tek O.C.T compound was added to a plastic mold, removing any bubbles that might form, and allowed to freeze at -25ºC for approximately one hour. Once the block had solidified, the plastic mold was removed. The frozen tumor blocks were processed inside a cryostat at -25ºC. Cores, 1.5 mm in diameter, were extracted from the tumor center and tumor-normal interface using single-use needles, ensuring representative sampling. These cores were immediately loaded into the frozen TMA block. 33-marker antibody panel was established for IMC staining and analysis. This panel includes markers for SCLC tumor cells, stroma compartments (endothelial cells and fibroblasts), and for major immune cell types (pan-leukocytes, T cells, B cells, macrophages, dendritic cells, and Treg). The antibody panel included functional markers to evaluate cellular states, including activation, exhaustion, apoptosis, and proliferation (see `idr0170-experimentA-IMCchannels.csv` file for more details). Antibodies were either bought pre-conjugated with metal isotopes or conjugated in-house with the help of MaxPar conjugation kits (Standard Biotools) and their instructions. Samples of murine spleen tissue are included to verify the sensitivity and specificity of all antibodies, acting as control tissues (see `idr0170-experimentA-annotation.csv` file).After building the TMA block, 5µm-thick sections were sliced with a cryostat and mounted onto microscope slides (SuperFrost Plus™ Adhesion slides, Thermo Scientific). Slides were frozen at −80°C and stained within two weeks. Longer storage could affect the staining quality. Before staining, the slides were thawed at room temperature for 30 minutes, fixed using Image-iT™ Fixative Solution (ThermoFisher) washed in DPBS and DPBS/0.05% Tween-20, and blocked with SuperBlock™ Blocking Buffer (Thermo Fisher Scientific) for one hour. Primary antibody staining was conducted overnight at 4°C. The next morning, slides were washed, and nuclear staining was performed using Cell-ID Intercalator-Ir (Standard Biotools) and DAPI. Stained slides were washed, air-dried, and prepared for imaging. IMC enables multiplexed detection of up to 40 markers within a single tissue section. Combining laser ablation with time-of-flight mass spectrometry, IMC can quantify metal-labeled antibodies in tissue sections. The high number of simultaneous markers allow a precise description of cellular content as well as spatial relationships between cells. Per mouse, two areas to image were selected such that one was located in the central tumor region and one in the tumor-normal lung border, with the help of the MCD software viewer. The automatic ablation of all selected areas was done."
+    },
+    {
+      "@id": "#experiment-protocol-1-4",
+      "@type": "LabProtocol",
+      "name": "data analysis protocol",
+      "description": "Analysis of the images and features if applicable: Custom python scripts were created to extract the images from the original .mcd files and convert them in the open source format ZARR. The order for channels in the multichannel tiff images is the same as in the `idr0170-experimentA-IMCchannels.csv` file (with manual estimation of the overall quality of the staining of each marker). Additionally after manual inspection, some ROI images were found without signal or too small, and removed from the dataset. The tiff images contain unprocessed IMC values for the 37 channels per ROI. The correspondance between the ROIs and the mouse line and treatment group is available in companion table of content file `idr0170-experimentA-annotation.csv`. As one goal of the analysis was to compare the immune profile around the tumors and inside, we provide a binary mask for each ROI delineating the tumor area (filled with 255 in the tumor area and 0 outside). The outlining of the tumor border was done manually in Fiji based on a normalized RGB image (blue for DNA, red for NCAM and green for PD-L1)."
+    },
+    {
+      "@id": "#total-dataset-size",
+      "@type": "QuantitativeValue",
+      "value": 3518437208883,
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000233",
+      "unitText": "bytes",
+      "description": "3.2 TB"
+    },
+    {
+      "@id": "#file-count",
+      "@type": "QuantitativeValue",
+      "value": 224,
+      "unitCode": "http://purl.obolibrary.org/obo/UO_0000189",
+      "unitText": "file count",
+      "description": "224 5D images"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "@context": [
+    "https://w3id.org/ro/crate/1.2/context",
+    {
+      "obo": "http://purl.obolibrary.org/obo/",
+      "dwc": "http://rs.tdwg.org/dwc/terms/",
+      "dwciri": "http://rs.tdwg.org/dwc/iri/",
+      "bao": "http://www.bioassayontology.org/bao#",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "vernacularName": {
+        "@id": "dwc:vernacularName"
+      },
+      "scientificName": {
+        "@id": "dwc:scientificName"
+      },
+      "hasCellLine": {
+        "@id": "bao:BAO_0002004"
+      },
+      "measurementMethod": {
+        "@id": "dwciri:measurementMethod"
+      },
+      "seeAlso": {
+        "@id": "rdfs:seeAlso"
+      },
+      "BioSample": {
+        "@id": "http://schema.org/BioSample"
+      },
+      "LabProtocol": {
+        "@id": "http://schema.org/LabProtocol"
+      },
+      "labEquipment": {
+        "@id": "http://schema.org/labEquipment"
+      }
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "idr0171-ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.2"
+      },
+      "about": {
+        "@id": "https://idr.openmicroscopy.org/study/idr0171/"
+      }
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/study/idr0171/",
+      "@type": "Dataset",
+      "name": "Interdisciplinary Study on Drug-Induced-Phospholipidosis of Repurposing Libraries through Machine Learning and Experimental Evaluation in Different Cell Lines",
+      "description": "Phospholipidosis (PLD) is a cellular adverse effect that is, among others, caused by numerous cationic amphiphilic drugs. Interest is raised within pharma discovery to predict this phenomenon, as it can impact the outcome of phenotypic cellular screens and significantly delay drug development processes. The development of accurate and validated machine learning models for predicting drug-induced PLD across different cell lines and research centers could provide a valuable early application tool for the pharmaceutical industry, potentially accelerating drug discovery and reducing the risk of late-stage failures. We report here the assembly, curation, testing and modeling of one of the largest datasets of repurposed drugs (5000+) tested for PLD induction on different cell lines. A machine-learning classification method was developed and validated to predict whether molecules are prone to induce PLD effects when applied in cell-based screens.",
+      "datePublished": "2026-03-30",
+      "license": "https://creativecommons.org/licenses/by/4.0/",
+      "copyrightNotice": "Kuzikov et al, CC-BY-4.0, 2026",
+      "identifier": "idr0171",
+      "publisher": {
+        "@id": "https://idr.openmicroscopy.org/"
+      },
+      "author": [
+        {
+          "@id": "https://orcid.org/0000-0001-8771-1865"
+        }
+      ],
+      "seeAlso": [
+        {
+          "@id": "https://doi.org/10.1016/j.patter.2025.101453"
+        }
+      ],
+      "about": [
+        {
+          "@id": "#screen-biosample-1"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9534"
+        }
+      ],
+      "measurementMethod": [
+        {
+          "@id": "#screen-protocol-1-0"
+        },
+        {
+          "@id": "#screen-protocol-1-1"
+        },
+        {
+          "@id": "#screen-protocol-1-2"
+        },
+        {
+          "@id": "#screen-protocol-1-3"
+        },
+        {
+          "@id": "#screen-protocol-1-4"
+        },
+        {
+          "@id": "#screen-protocol-1-5"
+        },
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
+        }
+      ],
+      "thumbnailUrl": [
+        "https://idr.openmicroscopy.org/webgateway/render_thumbnail/15201742/"
+      ]
+    },
+    {
+      "@id": "https://idr.openmicroscopy.org/",
+      "@type": "Organization",
+      "name": "Image Data Resource",
+      "url": "https://idr.openmicroscopy.org/"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-8771-1865",
+      "@type": "Person",
+      "name": "Maria Kuzikov",
+      "givenName": "Maria",
+      "familyName": "Kuzikov",
+      "email": "maria.kuzikov@itmp.fraunhofer.de",
+      "address": "Fraunhofer Institute for Translational Medicine and Pharmacology (ITMP), Schnackenburgallee 114, 22525 Hamburg, Germany"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.patter.2025.101453",
+      "@type": "ScholarlyArticle",
+      "name": "Experimental and machine learning-based exploration of repurposed drugs reveals chemical features underlying phospholipidosis"
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9534",
+      "@type": "Taxon",
+      "scientificName": "Chlorocebus aethiops"
+    },
+    {
+      "@id": "#screen-biosample-1",
+      "@type": "BioSample",
+      "name": "cell",
+      "description": "Vero E-6 kidney cells treated with repurposed drugs for phospholipidosis induction.",
+      "taxonomicRange": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/NCBITaxon_9534"
+        }
+      ]
+    },
+    {
+      "@id": "http://purl.obolibrary.org/obo/FBbi_00000253",
+      "@type": "DefinedTerm",
+      "name": "spinning disk confocal microscopy"
+    },
+    {
+      "@id": "#screen-protocol-1-0",
+      "@type": "LabProtocol",
+      "name": "spinning disk confocal microscopy",
+      "measurementTechnique": [
+        {
+          "@id": "http://purl.obolibrary.org/obo/FBbi_00000253"
+        }
+      ],
+      "description": "Vero E-6 kidney cells treated with repurposed drugs for phospholipidosis induction."
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003789",
+      "@type": "DefinedTerm",
+      "name": "growth protocol"
+    },
+    {
+      "@id": "#screen-protocol-1-1",
+      "@type": "LabProtocol",
+      "name": "growth protocol",
+      "description": "Vero-E6 cells were cultured in a complete medium: Dulbecco’s Modified Eagle Medium (DMEM) supplemented with 10% FBS, 6 mM L-glutamine, and 1% penicillin/streptomycin. Cells were harvested at 80% confluence from a T175 cm² flask by washing once with 10 mL of RT PBS, followed by incubation with 5 mL of Trypsin 0.05% / EDTA 0.02% for 5 minutes. Cells were then resuspended in 10 mL of prewarmed culture medium. For plating, Vero-E6 cells were diluted to a concentration of 500,000 cells/mL in cell culture medium supplemented with 1:1000 dilution of HCS LipidTOX™ Red Phospholipidosis Detection Reagent (1000X). A volume of 20 µL of this cell suspension was added to each well of the 384-well plate, and cells were incubated for 24 hours at 37 °C in a 5% CO₂ environment. For fixation, 20 µL of 8% formaldehyde solution was added to each well and incubated for 30 minutes at room temperature. After incubation, the fixation buffer was then removed, and cells were washed with 50 µL/well of PBS. Cells were stained for 45 minutes with 20 µL/well of a solution containing CellMask™ Deep Red stain (1:3,000, Invitrogen #H32721) and Hoechst 33258 (1:10,000, Merck/Sigma-Aldrich #94403) diluted in PBS. Following staining, the solution was removed, and cells were washed three times with 50 µL/well of PBS.",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003789"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0003969",
+      "@type": "DefinedTerm",
+      "name": "treatment protocol"
+    },
+    {
+      "@id": "#screen-protocol-1-2",
+      "@type": "LabProtocol",
+      "name": "treatment protocol",
+      "description": "Compounds (at 10 µM concentration) and controls (amiodarone 10 µM concentration; DMSO 0.1 v/v %) were added to clear bottom, 384-well plates (PhenoPlate 384-well, black, optically clear flat-bottom, tissue-culture treated, Revvity #6057302) using the Echo Liquid Handler (Labcyte).",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0003969"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0007571",
+      "@type": "DefinedTerm",
+      "name": "HCS library protocol"
+    },
+    {
+      "@id": "#screen-protocol-1-3",
+      "@type": "LabProtocol",
+      "name": "HCS library protocol",
+      "description": "Image acquisition was performed using the automated Operetta Phenix High Content Screening system (Revvity). Image analysis was performed using Columbus 2.9 image analysis software (PerkinElmer Inc).",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0007571"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0007572",
+      "@type": "DefinedTerm",
+      "name": "HCS image acquisition and feature extraction protocol"
+    },
+    {
+      "@id": "#screen-protocol-1-4",
+      "@type": "LabProtocol",
+      "name": "HCS image acquisition and feature extraction protocol",
+      "description": "Results were normalized against the positive control (amiodarone at 10 µM, set at 100% PLD induction) and the negative control (DMSO at 0.1% v/v, set at 0% PLD induction). Compounds with >50% PLD induction were classified as primary hits.",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0007572"
+        }
+      ]
+    },
+    {
+      "@id": "http://www.ebi.ac.uk/efo/EFO_0007573",
+      "@type": "DefinedTerm",
+      "name": "HCS data analysis protocol"
+    },
+    {
+      "@id": "#screen-protocol-1-5",
+      "@type": "LabProtocol",
+      "name": "HCS data analysis protocol",
+      "description": "HCS data analysis protocol",
+      "measurementTechnique": [
+        {
+          "@id": "http://www.ebi.ac.uk/efo/EFO_0007573"
+        }
+      ]
+    }
+  ]
+}
